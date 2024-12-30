@@ -1,5 +1,6 @@
-@import "fonts/gilroy/gilroy.css";
 @import "fonts/product/product.css";
+@import "fonts/dm-sans/stylesheet.css";
+@import 'primeicons/primeicons.css';
 
 @layer tailwind-base, primevue, tailwind-utilities;
 
@@ -13,10 +14,69 @@
 }
 
 body {
-    font-family: "Product Sans", sans-serif;
     margin: 0;
+    font-family: "DM Sans", sans-serif;
 }
 
-.font-gilroy {
-    font-family: "Gilroy", sans-serif;
+.font-product {
+    font-family: "Product Sans", sans-serif;
+}
+
+.button-gradient {
+    background: linear-gradient(91.76deg, #66B5FF 1.49%, #0033FF 55.94%, #66B5FF 99.59%);
+}
+
+.p-button {
+    @apply text-white text-base font-normal font-product border-none;
+}
+
+.p-button .p-button-label {
+    @apply font-normal;
+}
+
+.p-button-secondary {
+    background: #333333;
+}
+
+/*.p-button-contrast {*/
+/*    border: 1px solid;*/
+/*    border-image: url("@/assets/svg/button-border.svg");*/
+/*    border-image-slice: 1;*/
+
+/*}*/
+
+/*.button-contrast {*/
+/*    !*border: 1px solid;*!*/
+/*    box-shadow: 0px 0px 0px 1px linear-gradient(90deg, rgba(145, 169, 250, 0) 0%, #97B9C8 24.4%, #44D0EF 53.4%, rgba(151, 179, 234, 0.7) 100%);*/
+/*    border: 1px solid;*/
+
+
+
+/*    border-radius: 29px;*/
+/*    overflow: visible;*/
+/*}*/
+
+.text-color-gradient {
+    background: linear-gradient(93.89deg,
+    rgba(145, 250, 231, 0) -14.53%,
+    rgba(38, 237, 255, 0.8) 25.29%,
+    rgba(74, 148, 216, 0.8) 62.24%,
+    rgba(68, 77, 239, 0.8) 85.93%,
+    rgba(151, 179, 234, 0.56) 104.94%);
+    background-size: 150% 150%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradientMove 6s linear infinite;
+}
+
+@keyframes gradientMove {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
 }

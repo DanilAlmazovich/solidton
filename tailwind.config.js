@@ -8,7 +8,7 @@ export default {
     container: {
       center: true,
       screens: {
-        DEFAULT: '1450px'
+        DEFAULT: '1295px'
       },
       padding: {
         DEFAULT: '8px'
@@ -17,16 +17,11 @@ export default {
     extend: {
       colors: {
         gray: {
-          800: '#121624'
+          300: '#909090',
         },
         blue: {
-          100: '#CAD1DB',
-          200: '#D8E0FA',
-          300: '#66B5FF',
-          800: '#030118'
-        },
-        rgba: {
-          100: 'rgba(151, 179, 234, 0.1)'
+          400: '#66B5FF',
+          800: '#02060F'
         }
       }
     },

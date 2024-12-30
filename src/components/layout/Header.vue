@@ -1,58 +1,47 @@
 <script setup lang="ts">
-import {Select} from "primevue";
+import {Button} from "primevue";
 import {ref} from "vue";
 
-const options = ref(['Русский', 'Английский'])
-const selected = ref(options.value[0])
+const links = ref([
+  {type: 'anchor', value: 'Wallet'},
+  {type: 'anchor', value: 'Staking'},
+  {type: 'anchor', value: 'Solidtrust'},
+  {type: 'anchor', value: 'DEX'},
+  {type: 'anchor', value: 'Tokenomics'},
+  {type: 'anchor', value: 'Bridge'},
+  {type: 'anchor', value: 'Block explorer'},
+  {type: 'anchor', value: 'Pump pad'},
+  {type: 'anchor', value: 'Defi'},
+  {type: 'anchor', value: 'Roadmap'},
+  {type: 'link', value: 'How To Buy'},
+])
+
 </script>
 
 <template>
-  <header>
+  <header class="bg-blue-800">
     <div class="container">
-      <div class="grid grid-cols-[1fr_3fr_1fr] py-12 items-center justify-items-center">
-        <div></div>
-        <div class="bg-rgba-100 rounded-[1.625rem] border border-solid border-[#C0CCF84D]/30 px-16 py-8 w-auto">
-          <ul class="grid grid-cols-4 gap-10">
-            <li class="text-center block">
-              <router-link class="text-blue-300" to="#">Главная</router-link>
-            </li>
-            <li class="text-center block">
-              <router-link class="text-blue-100" to="#">О нас</router-link>
-            </li>
-            <li class="text-center block">
-              <router-link class="text-blue-100" to="#">Белая бумага</router-link>
-            </li>
-            <li class="text-center block">
-              <router-link class="text-blue-100" to="#">Аудит</router-link>
-            </li>
-          </ul>
+      <div class="flex items-center justify-between py-4">
+        <div class="flex">
+          <router-link to="/" class="text-white text-2xl">Logo</router-link>
         </div>
-        <div class="flex justify-end w-full">
-          <Select class="border-none bg-transparent text-white outline-none custom-select shadow-none"
-                  :options="options" overlay-class="custom-select-overlay" v-model="selected">
-            <template #value="{value}">
-              <span class="text-white font-normal">{{ value }}</span>
-            </template>
-          </Select>
+        <div class="flex gap-7 items-center pr-6">
+          <template v-for="(link, i) in links" :key="`${link}-${i}`">
+            <button class="text-white text-xs font-normal" v-if="link.type === 'anchor'">{{ link.value }}</button>
+            <router-link to="#" class="text-white text-xs font-normal" v-if="link.type === 'link'">{{ link.value }}</router-link>
+          </template>
+        </div>
+        <div class="flex items-center">
+          <div class="mr-14">
+            <Button class="button-gradient px-11" label="Join Presale" rounded size="large"/>
+          </div>
+          <div>
+            <button class="text-white flex items-center">
+              <i class="pi pi-bars text-xl"/>
+            </button>
+          </div>
         </div>
       </div>
     </div>
   </header>
 </template>
-
-<style lang="css">
-  .custom-select .p-select-dropdown-icon {
-    color: #00D1FF;
-  }
-  .custom-select .p-select-label {
-    padding: 6px;
-  }
-  .custom-select-overlay {
-    background: theme('colors.gray.800');
-    padding: 0;
-  }
-  .p-select-option-label {
-    font-size: 14px;
-  }
-
-</style>
