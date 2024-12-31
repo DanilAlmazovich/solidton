@@ -7,6 +7,7 @@ import Bridge from "@/components/home/Bridge.vue";
 import Explorer from "@/components/home/Explorer.vue";
 import PumpPad from "@/components/home/PumpPad.vue";
 import TON from "@/components/home/TON.vue";
+import Gateway from "@/components/home/Gateway.vue";
 </script>
 
 <template>
@@ -18,4 +19,5 @@ import TON from "@/components/home/TON.vue";
   <Explorer/>
   <PumpPad/>
   <TON/>
+  <Gateway/>
 </template>
