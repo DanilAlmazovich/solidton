@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-black">
+  <section>
     <div class="container">
       <div class="py-28">
         <div class="flex justify-center flex-col px-40 mb-14">

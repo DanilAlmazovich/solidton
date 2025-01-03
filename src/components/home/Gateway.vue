@@ -1,10 +1,10 @@
 <script setup lang="ts">
-
+import Icon from "@/components/Icon.vue";
 import {Button} from "primevue";
 </script>
 
 <template>
-  <section class="bg-black">
+  <section>
     <div class="container">
       <div class="flex justify-between py-32 items-center">
         <div class="w-[55%] pt-2">
@@ -28,8 +28,9 @@ import {Button} from "primevue";
           <Button class="px-[3.7rem] py-4 text-white" severity="contrast" rounded label="Learn more"/>
         </div>
         <div class="w-[40%] flex flex-col items-center pl-4 pt-10">
-          <div class="flex items-center justify-center">
-            <img src="@/assets/images/bridge-circle.png" alt="image">
+          <div class="flex items-center justify-center w-full">
+<!--            <img src="@/assets/images/bridge-circle.png" alt="image">-->
+              <Icon class="w-full h-full inline-flex" name="gateway"/>
           </div>
         </div>
       </div>

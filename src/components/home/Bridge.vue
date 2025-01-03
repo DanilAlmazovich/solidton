@@ -4,7 +4,7 @@ import {Button} from "primevue";
 </script>
 
 <template>
-  <section class="bg-black">
+  <section>
     <div class="container">
       <div class="flex justify-between py-16 items-center">
         <div class="w-[55%] pt-2 pl-4">

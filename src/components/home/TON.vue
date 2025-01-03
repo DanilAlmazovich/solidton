@@ -3,7 +3,7 @@ import {Button} from "primevue";
 </script>
 
 <template>
-  <section class="bg-black">
+  <section>
     <div class="container">
       <div class="flex justify-between items-center pt-8">
         <div class="w-[50%] flex items-center justify-center pb-16">
