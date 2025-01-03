@@ -4,7 +4,7 @@ import Icon from "@/components/Icon.vue";
 </script>
 
 <template>
-  <section class="bg-black">
+  <section>
     <div class="container">
       <div class="w-1/2 pt-[12rem] pb-[8rem]">
         <h1 class="text-[40px] font-bold text-color-gradient leading-[3.255rem] mb-12">

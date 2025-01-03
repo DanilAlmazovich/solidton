@@ -11,13 +11,19 @@ import Gateway from "@/components/home/Gateway.vue";
 </script>
 
 <template>
-  <Promo/>
-  <Wallet/>
-  <Staking/>
-  <DEX/>
-  <Bridge/>
-  <Explorer/>
-  <PumpPad/>
-  <TON/>
-  <Gateway/>
+    <div class="relative overflow-hidden">
+        <div class="absolute right-[-16rem] top-[-16rem] z-[-1]">
+            <video src="@/assets/video/promo.webm" autoplay muted loop/>
+        </div>
+        <Promo/>
+        <Wallet/>
+        <Staking/>
+        <DEX/>
+        <Bridge/>
+        <Explorer/>
+        <PumpPad/>
+        <TON/>
+        <Gateway/>
+        <div class="flex w-full h-full absolute bg-black z-[-10] inset-0"/>
+    </div>
 </template>

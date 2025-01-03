@@ -7,7 +7,7 @@ import {Button} from "primevue";
     <div class="container">
       <div class="flex pt-3 justify-between items-center pb-16">
         <div class="w-[40%] flex justify-center items-center pt-16">
-          <img src="@/assets/images/DEX-map.png" alt="image">
+            <video src="@/assets/video/dex.webm" loop autoplay muted/>
         </div>
         <div class="w-[56%] pr-12 pb-4 pt-32 pl-1">
           <h2 class="text-[40px] text-color-gradient font-semibold pt-3 pr-8 mb-10 leading-[3.255rem]">Solidton DEX: Trade Freely Without Limits</h2>

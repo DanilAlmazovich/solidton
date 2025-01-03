@@ -7,7 +7,8 @@ import {Button} from "primevue";
     <div class="container">
       <div class="flex pt-3 justify-between items-center pb-16">
         <div class="w-[37%] flex items-center justify-center">
-          <img src="@/assets/images/wallet-phone.png" alt="image">
+<!--          <img src="@/assets/images/wallet-phone.png" alt="image">-->
+            <video src="@/assets/video/wallet.webm" loop muted autoplay/>
         </div>
         <div class="w-[55%] pl-8 pr-12 pb-4">
           <h2 class="text-[36px] text-color-gradient font-semibold pt-1 pr-8 mb-10">SOLIDTON WALLET: Your Key to the Web3 Ecosystem</h2>

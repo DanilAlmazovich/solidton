@@ -24,7 +24,7 @@ import {Button} from "primevue";
         </div>
         <div class="w-[40%] flex flex-col items-center pl-4 pt-10">
           <div class="flex items-center justify-center">
-            <img src="@/assets/images/bridge-circle.png" alt="image">
+              <video src="@/assets/video/bridge.webm" autoplay muted loop/>
           </div>
         </div>
       </div>

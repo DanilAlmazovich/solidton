@@ -15,8 +15,9 @@
           <p class="text-center text-gray-300 leading-[1.969rem] px-36">Solidton Pump Pad transforms your ideas into
             thriving blockchain projects.</p>
         </div>
-        <div class="w-full rounded px-6">
-          <img class="w-full" src="@/assets/images/pump-pad.png" alt="image">
+        <div class="w-full rounded px-6 flex items-center justify-center">
+<!--          <img class="w-full" src="@/assets/images/pump-pad.png" alt="image">-->
+            <video class="w-1/2" src="@/assets/video/pump-pad.webm" loop autoplay muted/>
         </div>
       </div>
     </div>

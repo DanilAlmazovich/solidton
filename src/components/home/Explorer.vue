@@ -15,8 +15,9 @@
           <p class="text-center text-gray-300 leading-[1.969rem] px-36">Solidton Block Explorer combines ease of use
             with advanced features to make blockchain data clear and accessible.02:42</p>
         </div>
-        <div class="w-full rounded px-6">
-          <img class="w-full" src="@/assets/images/explorer-block.png" alt="image">
+        <div class="w-full rounded px-6 flex items-center justify-center">
+            <video class="w-1/2" src="@/assets/video/block-explorer.webm" loop autoplay muted/>
+<!--          <img class="w-full" src="@/assets/images/explorer-block.png" alt="image">-->
         </div>
       </div>
     </div>
