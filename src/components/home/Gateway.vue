@@ -7,27 +7,23 @@ import {Button} from "primevue";
   <section>
     <div class="container">
       <div class="flex justify-between py-32 items-center">
-        <div class="w-[55%] pt-2">
-          <h2 class="text-[40px] text-color-gradient font-semibold pt-2 mb-10 pr-24 leading-[3.3rem]">Solidton: Your Gateway
-            <br>
-            to Advanced DeFi Solutions</h2>
-          <div class="mb-12">
-            <p class="text-white mb-6">The integration of $TICS tokens with the soon-to-be-deployed USDC/USDT-backed
-              QUSD, promotes market stability and accurate transaction reflections, enhancing user confidence.
-              This strategic pairing is designed to increase demand for $TICS, fostering
-              enhanced utility and usSolidton offers a comprehensive suite of DeFi (Decentralized Finance) features,
-              providing users with innovative tools to manage their assets. The ecosystem includes:</p>
-            <ul class="text-blue-400 pl-4 mb-6 list-disc">
-              <li>Staking for earning rewards.</li>
-              <li>P2P lending for direct financial transactions between users.</li>
-              <li>Liquidity management through pools and exchange platforms.</li>
+        <div class="w-[48.5%] pt-2">
+          <h2 class="text-[40px] text-color-gradient font-semibold pt-2 mb-10 pr-10 leading-[3.3rem]">Solidton: Your Gateway to Advanced DeFi Solutions  </h2>
+          <div class="mb-16 pt-1 pb-2">
+            <p class="text-white mb-8 leading-[31.5px]">Solidton introduces innovative solutions in the field of decentralized finance,
+                offering users modern tools for asset management and creating new opportunities.:</p>
+              <p class="text-white pt-1">The ecosystem includes:  </p>
+            <ul class="text-blue-400 pl-4 mb-8 list-disc py-2">
+              <li class="mb-1.5">Staking — to earn rewards.</li>
+              <li class="mb-1.5">P2P Lending — direct financial transactions between users. </li>
+              <li class="mb-1.5">Liquidity Management — creating pools and participating in decentralized exchanges.</li>
             </ul>
-            <p class="text-white">Solidton DeFi is freedom, control, and new opportunities for every user.er engagement
-              due to its security and potential.</p>
+            <p class="text-white leading-[31.5px]">Solidton opens new horizons in the world of DeFi, providing freedom, control,
+                and growth for every user.</p>
           </div>
           <Button class="px-[3.7rem] py-4 text-white" severity="contrast" rounded label="Learn more"/>
         </div>
-        <div class="w-[40%] flex flex-col items-center pl-4 pt-10">
+        <div class="w-[50%] flex flex-col items-center pt-10 pl-4">
           <div class="flex items-center justify-center w-full">
 <!--            <img src="@/assets/images/bridge-circle.png" alt="image">-->
               <Icon class="w-full h-full inline-flex" name="gateway"/>
