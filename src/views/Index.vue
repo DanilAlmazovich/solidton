@@ -13,6 +13,7 @@ import Tokenomics from "@/components/home/Tokenomics.vue";
 import Roadmap from "@/components/home/Roadmap.vue";
 import Partners from "@/components/home/Partners.vue";
 import QA from "@/components/home/QA.vue";
+import SignUp from "@/components/home/SignUp.vue";
 </script>
 
 <template>
@@ -45,6 +46,7 @@ import QA from "@/components/home/QA.vue";
         <Roadmap/>
         <Partners/>
         <QA/>
+        <SignUp/>
         <div class="flex w-full h-full absolute bg-black z-[-10] inset-0"/>
     </div>
 </template>
