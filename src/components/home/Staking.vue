@@ -14,7 +14,7 @@ import {Button} from "primevue";
             efficient, and designed to maximize your returns while contributing to the ecosystem</p>
           <Button class="px-[4.5rem] py-4 text-white mt-1" severity="contrast" rounded label="Buy now"/>
         </div>
-        <div class="w-[37%] pr-10 flex flex-col items-center">
+        <div class="w-[43%] pr-10 flex flex-col items-center">
           <div class="flex items-center justify-center mb-4">
               <video src="@/assets/video/staking.webm" loop autoplay muted/>
           </div>

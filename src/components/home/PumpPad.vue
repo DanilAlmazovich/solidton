@@ -1,8 +1,8 @@
 <template>
   <section>
     <div class="container">
-      <div class="py-28">
-        <div class="flex justify-center flex-col px-40 mb-14">
+      <div class="pt-28 pb-8">
+        <div class="flex justify-center flex-col px-40 mb-4">
           <h2 class="text-[40px] text-color-gradient font-semibold leading-[3.3rem] text-center px-24 mb-9">
             Solidton Pump Pad: Launch Your Tokens with Confidence</h2>
           <p class="text-center text-gray-300 px-36 leading-[1.969rem] mb-10">
@@ -17,7 +17,7 @@
         </div>
         <div class="w-full rounded px-6 flex items-center justify-center">
 <!--          <img class="w-full" src="@/assets/images/pump-pad.png" alt="image">-->
-            <video class="w-1/2" src="@/assets/video/pump-pad.webm" loop autoplay muted/>
+            <video class="w-1/2" src="../../assets/video/pumppad.webm" loop autoplay muted/>
         </div>
       </div>
     </div>
