@@ -7,7 +7,7 @@ import {Button} from "primevue";
         <div class="container">
             <div class="flex pt-3 justify-between items-center pb-16">
                 <div class="w-[40%] flex justify-center items-center pt-16">
-<!--                    <video src="@/assets/video/SolidTrust.webm" loop autoplay muted/>-->
+                    <video src="@/assets/video/trust.webm" loop autoplay muted/>
                 </div>
                 <div class="w-[52%] pb-4 pt-24 pl-2">
                     <h2 class="text-[40px] text-color-gradient font-semibold pt-3 pr-8 mb-10 leading-[3.255rem]">SolidTrust: Trust and Secure Blockchain</h2>

@@ -8,7 +8,7 @@ import {Button} from "primevue";
       <div class="flex justify-between items-center pt-8">
         <div class="w-[50%] flex items-center justify-center pb-16">
 <!--          <img src="@/assets/images/TON-QR.png" alt="image">-->
-            <video src="@/assets/video/from-ton.webm" loop autoplay muted/>
+            <video src="@/assets/video/ton.webm" loop autoplay muted/>
         </div>
         <div class="w-[50%] pl-8 pb-4">
           <h2 class="text-[40px] text-color-gradient font-semibold pt-1 pr-8 mb-9 leading-[3.3rem]">Solidton: From TON to Independent

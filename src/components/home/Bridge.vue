@@ -23,7 +23,7 @@ import {Button} from "primevue";
           <Button class="px-[3.7rem] py-4 text-white" severity="contrast" rounded label="Learn more"/>
         </div>
         <div class="w-[40%] flex flex-col items-center pl-4 pt-10">
-          <div class="flex items-center justify-center">
+          <div class="flex items-center justify-center transform scale-[130%]">
               <video src="@/assets/video/bridge.webm" autoplay muted loop/>
           </div>
         </div>

@@ -2,7 +2,7 @@
   <section>
     <div class="container">
       <div class="pt-28 pb-2">
-        <div class="flex justify-center flex-col px-40 mb-10">
+        <div class="flex justify-center flex-col px-40 mb-2">
           <h2 class="text-[40px] text-color-gradient font-semibold leading-[3.3rem] text-center px-24 mb-9">Solidton
             Block Explorer: Transparency at Your Fingertips</h2>
           <p class="text-center text-gray-300 px-36 leading-[1.969rem] mb-6">Solidton Block Explorer is your go-to tool
@@ -16,7 +16,7 @@
             with advanced features to make blockchain data clear and accessible.02:42</p>
         </div>
         <div class="w-full rounded px-6 flex items-center justify-center">
-            <video class="w-1/2" src="@/assets/video/block-explorer.webm" loop autoplay muted/>
+            <video class="w-[45%]" src="@/assets/video/explorer.webm" loop autoplay muted/>
 <!--          <img class="w-full" src="@/assets/images/explorer-block.png" alt="image">-->
         </div>
       </div>

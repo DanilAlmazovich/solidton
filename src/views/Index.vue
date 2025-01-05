@@ -18,7 +18,7 @@ import SignUp from "@/components/home/SignUp.vue";
 
 <template>
     <div class="relative overflow-hidden">
-        <div class="absolute right-[-16rem] top-[-16rem] z-[-2]">
+        <div class="absolute right-[-2rem] top-0 z-[-2] w-[58%]">
             <video src="@/assets/video/promo.webm" autoplay muted loop/>
         </div>
         <Promo/>
