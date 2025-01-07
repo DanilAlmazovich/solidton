@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section id="pump-pad">
     <div class="container">
       <div class="pt-28 pb-8">
         <div class="flex justify-center flex-col px-40 mb-4">

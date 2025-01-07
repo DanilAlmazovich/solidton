@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section id="block-explorer">
     <div class="container">
       <div class="pt-28 pb-2">
         <div class="flex justify-center flex-col px-40 mb-2">

@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@primevue/themes": "^4.2.5",
+    "jump.js": "^1.0.2",
     "pinia": "^2.2.6",
     "primeicons": "^7.0.0",
     "primevue": "^4.2.5",

@@ -4,7 +4,7 @@ import {Button} from "primevue";
 </script>
 
 <template>
-  <section class="w-full pt-[25rem] pb-[10rem]">
+  <section class="w-full pt-[25rem] pb-[10rem]" id="tokenomics">
     <div class="container">
         <div class="flex flex-col items-center py-4 mb-6">
             <h2 class="text-color-gradient font-bold text-[44px] text-center mb-6">Tokenomics</h2>
