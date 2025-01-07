@@ -3,7 +3,7 @@
 import {Button} from "primevue";
 import {Navigation, Pagination, Scrollbar, A11y} from 'swiper/modules';
 
-// Import Swiper Vue.js components
+// Import Swiper Vue.js elements
 import {Swiper, SwiperSlide} from 'swiper/vue';
 
 
