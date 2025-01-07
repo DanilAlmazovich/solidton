@@ -17,10 +17,10 @@ const modules = [Pagination]
 </script>
 
 <template>
-    <section class="w-full pb-[8rem] md:pb-2" id="roadmap">
+    <section class="w-full pb-[8rem] md:pb-2">
         <div class="container">
             <div class="pt-24">
-                <h2 class="text-color-gradient font-bold text-[48px] text-center mb-6 py-1 md:text-[30px]
+                <h2 id="roadmap" class="text-color-gradient font-bold text-[48px] text-center mb-6 py-1 md:text-[30px]
           sm:text-[25px] xs:text-[20px] sm:leading-snug">Roadmap</h2>
             </div>
         </div>

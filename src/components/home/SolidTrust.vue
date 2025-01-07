@@ -3,14 +3,14 @@ import {Button} from "primevue";
 </script>
 
 <template>
-    <section id="solidtrust">
+    <section>
         <div class="container">
             <div class="flex pt-3 justify-between items-center pb-16 md:flex-col-reverse">
                 <div class="w-[40%] flex justify-center items-center pt-16 md:pt-8 md:w-2/3 sm:w-3/4 xs:w-full">
                     <video src="@/assets/video/trust.webm" loop autoplay muted playsinline/>
                 </div>
                 <div class="w-[52%] pb-4 pt-24 pl-2 md:w-full md:px-0 md:pt-6">
-                    <h2 class="text-[40px] text-color-gradient font-semibold pt-3 pr-8 mb-10 leading-[3.255rem]
+                    <h2 id="solidtrust" class="text-[40px] text-color-gradient font-semibold pt-3 pr-8 mb-10 leading-[3.255rem]
                     md:text-[30px] sm:text-[25px] xs:text-[20px] sm:leading-snug lg:px-8 md:px-0">
                         SolidTrust: Trust and Secure Blockchain</h2>
                     <div class="mb-14">

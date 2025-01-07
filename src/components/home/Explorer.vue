@@ -1,9 +1,9 @@
 <template>
-  <section id="block-explorer">
+  <section>
     <div class="container">
       <div class="pt-28 pb-2 md:pt-4 sm:mb-0">
         <div class="flex justify-center flex-col px-40 mb-2 md:px-0 lg:px-8 xl:px-10">
-          <h2 class="text-[40px] text-color-gradient font-semibold leading-[3.3rem] md:px-0 text-center px-24 lg:px-0 mb-9 md:text-[30px]
+          <h2 id="block-explorer" class="text-[40px] text-color-gradient font-semibold leading-[3.3rem] md:px-0 text-center px-24 lg:px-0 mb-9 md:text-[30px]
           sm:text-[25px] xs:text-[20px] sm:leading-snug">Solidton
             Block Explorer: Transparency at Your Fingertips</h2>
           <p class="text-center text-gray-300 px-36 leading-[1.969rem] mb-6 lg:px-8 sm:text-sm md:px-0">Solidton Block Explorer is your go-to tool

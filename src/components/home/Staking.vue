@@ -4,11 +4,11 @@ import {Button} from "primevue";
 </script>
 
 <template>
-    <section id="staking">
+    <section>
         <div class="container">
             <div class="flex justify-between py-20 items-center md:flex-col md:pt-0">
                 <div class="w-[55%] pt-20 pr-28 lg:pr-14 md:pr-0 md:w-full md:pt-4">
-                    <h2 class="text-[40px] text-color-gradient font-semibold pt-2 mb-10 pr-6 leading-[3.3rem]
+                    <h2 id="staking" class="text-[40px] text-color-gradient font-semibold pt-2 mb-10 pr-6 leading-[3.3rem]
                     md:text-[30px] sm:text-[25px] xs:text-[20px] sm:leading-snug">
                         Solidton Staking: Multiply Your SON Tokens Effortlessly</h2>
                     <p class="text-white mb-10 sm:text-sm"> Мелкий шрифт (подробности) Earn rewards by staking your SON

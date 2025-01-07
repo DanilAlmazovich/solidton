@@ -4,11 +4,11 @@ import {Button} from "primevue";
 </script>
 
 <template>
-  <section id="bridge">
+  <section>
     <div class="container">
       <div class="flex justify-between py-16 items-center md:flex-col md:py-0">
         <div class="w-[55%] pt-2 pl-4 md:w-full md:px-0">
-          <h2 class="text-[40px] text-color-gradient font-semibold pt-2 mb-10 pr-16 leading-[3.3rem]
+          <h2 id="bridge" class="text-[40px] text-color-gradient font-semibold pt-2 mb-10 pr-16 leading-[3.3rem]
           md:text-[30px] sm:text-[25px] xs:text-[20px] sm:leading-snug">
               Solidton Bridge: Connect Blockchains, Expand Possibilities
           </h2>

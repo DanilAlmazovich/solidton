@@ -1,9 +1,9 @@
 <template>
-  <section id="pump-pad">
+  <section>
     <div class="container">
       <div class="pt-28 pb-8 md:pt-8">
         <div class="flex justify-center flex-col px-40 mb-4 md:px-0 lg:px-8 xl:px-10">
-          <h2 class="text-[40px] text-color-gradient font-semibold leading-[3.3rem] text-center px-24 mb-9
+          <h2 id="pump-pad" class="text-[40px] text-color-gradient font-semibold leading-[3.3rem] text-center px-24 mb-9
           md:text-[30px] sm:text-[25px] xs:text-[20px] sm:leading-snug lg:px-8 md:px-0">
             Solidton Pump Pad: Launch Your Tokens with Confidence</h2>
           <p class="text-center text-gray-300 px-36 leading-[1.969rem] mb-10 sm:text-sm lg:px-8 md:px-0">

@@ -4,11 +4,11 @@ import {Button} from "primevue";
 </script>
 
 <template>
-    <section id="defi">
+    <section>
         <div class="container">
             <div class="flex justify-between py-32 items-center md:pb-8 md:pt-0 md:flex-col">
                 <div class="w-[48.5%] pt-2 md:w-full md:mb-10">
-                    <h2 class="text-[40px] text-color-gradient font-semibold pt-2 mb-10 pr-10 leading-[3.3rem]
+                    <h2 id="defi" class="text-[40px] text-color-gradient font-semibold pt-2 mb-10 pr-10 leading-[3.3rem]
                     md:text-[30px] sm:text-[25px] xs:text-[20px] sm:leading-snug lg:px-8 md:px-0">
                         Solidton: Your Gateway to Advanced DeFi Solutions  </h2>
                     <div class="mb-16 pt-1 pb-2">

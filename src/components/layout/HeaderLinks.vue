@@ -21,7 +21,7 @@ const links = ref([
 
 const scrollTo = (to) => {
     jump(to, {
-        offset: -40
+        offset: -90
     })
     emits('scroll')
 }

@@ -4,10 +4,10 @@ import {Button} from "primevue";
 </script>
 
 <template>
-    <section class="w-full pt-[25rem] pb-[15rem] md:pt-[15rem]" id="tokenomics">
+    <section class="w-full pt-[25rem] pb-[15rem] md:pt-[15rem]">
         <div class="container">
             <div class="flex flex-col items-center py-4 mb-6">
-                <h2 class="text-color-gradient font-bold text-[44px] text-center mb-6 md:pt-8 md:text-[30px]
+                <h2 id="tokenomics" class="text-color-gradient font-bold text-[44px] text-center mb-6 md:pt-8 md:text-[30px]
           sm:text-[25px] xs:text-[20px] sm:leading-snug">Tokenomics</h2>
                 <p class="text-white leading-[31.5px] text-lg text-center mb-8 sm:leading-snug lg:text-base sm:text-sm">Token Sale Progress <br> 64% of the
                     total token supply has been allocated for the presale. We reserve the right
