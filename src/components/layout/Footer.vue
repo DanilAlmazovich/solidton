@@ -14,7 +14,7 @@ import Icon from "@/components/Icon.vue";
             <div class="container">
                 <div class="border-t border-solid border-white py-10">
                     <div class="flex justify-between w-full md:flex-col ">
-                        <div class="w-[29%] lg:w-[35%] pl-2 py-6 md:w-full">
+                        <div class="w-[29%] lg:w-[35%] pl-2 py-6 md:w-full lg:pl-0">
                             <p class="text-white text-sm leading-[24px] font-product">Join the Solidton crypto presale —
                                 an innovative Layer 1 ecosystem uniting leading
                                 blockchains

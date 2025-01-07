@@ -7,9 +7,9 @@ import {InputText, Button} from "primevue";
         <div class="container">
             <div class="py-12">
                 <div class="pt-2 pb-1 px-2 mb-12">
-                    <span class="text-white text-xl">Sign Up for Exclusive Updates!</span>
+                    <span class="text-white text-xl sm:text-base">Sign Up for Exclusive Updates!</span>
                 </div>
-                <div class="flex px-2 gap-8">
+                <div class="flex px-2 gap-8 sm:flex-col">
                     <InputText placeholder="abc@gmail.com"
                                class="input-apply"/>
                     <Button class="bg-transparent text-white px-12" label="Submit"/>

@@ -5,20 +5,24 @@ import {Button} from "primevue";
 <template>
     <section id="solidtrust">
         <div class="container">
-            <div class="flex pt-3 justify-between items-center pb-16">
-                <div class="w-[40%] flex justify-center items-center pt-16">
-                    <video src="@/assets/video/trust.webm" loop autoplay muted/>
+            <div class="flex pt-3 justify-between items-center pb-16 md:flex-col-reverse">
+                <div class="w-[40%] flex justify-center items-center pt-16 md:pt-8 md:w-2/3 sm:w-3/4 xs:w-full">
+                    <video src="@/assets/video/trust.webm" loop autoplay muted playsinline/>
                 </div>
-                <div class="w-[52%] pb-4 pt-24 pl-2">
-                    <h2 class="text-[40px] text-color-gradient font-semibold pt-3 pr-8 mb-10 leading-[3.255rem]">SolidTrust: Trust and Secure Blockchain</h2>
+                <div class="w-[52%] pb-4 pt-24 pl-2 md:w-full md:px-0 md:pt-6">
+                    <h2 class="text-[40px] text-color-gradient font-semibold pt-3 pr-8 mb-10 leading-[3.255rem]
+                    md:text-[30px] sm:text-[25px] xs:text-[20px] sm:leading-snug lg:px-8 md:px-0">
+                        SolidTrust: Trust and Secure Blockchain</h2>
                     <div class="mb-14">
-                        <p class="text-white mb-8 leading-[31.5px]">SolidTrust is a unique decentralized system that analyzes the actions
+                        <p class="text-white mb-8 leading-[31.5px] sm:leading-snug sm:text-sm">SolidTrust is a unique decentralized system that
+                            analyzes the actions
                             of users, projects, and tokens, assigning them a trust rating (SolidScore).
                             This rating is updated in real-time, ensuring security, transparency, and reliability
                             for all participants in the SolidChain network.</p>
-                        <p class="text-white mb-6 leading-[31.5px]">Join SolidTrust to experience safe, transparent, and reliable blockchain interactions like never before.</p>
+                        <p class="text-white mb-6 leading-[31.5px] sm:leading-snug sm:text-sm">Join SolidTrust to experience safe, transparent, and
+                            reliable blockchain interactions like never before.</p>
                     </div>
-                    <Button class="px-[3.75rem] py-4 text-white" severity="contrast" rounded label="Learn More"/>
+                    <Button class="px-[3.75rem] py-4 text-white lg:py-3 lg:text-base sm:text-sm sm:py-2" severity="contrast" rounded label="Learn More"/>
                 </div>
             </div>
         </div>

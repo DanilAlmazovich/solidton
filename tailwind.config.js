@@ -25,7 +25,7 @@ export default {
         DEFAULT: '1295px'
       },
       padding: {
-        'xm': '6px',
+        'xm': '8px',
         'xs': '8px',
         'sm': '8px',
         'md': '16px',
