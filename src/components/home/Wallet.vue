@@ -5,12 +5,12 @@ import {Button} from "primevue";
 <template>
     <section id="wallet">
         <div class="container">
-            <div class="flex pt-3 justify-between items-center pb-16 md:flex-col-reverse md:items-center">
+            <div class="flex pt-3 justify-between items-center pb-16 md:flex-col-reverse md:items-center md:pb-4">
                 <div class="w-[37%] flex items-center justify-center md:w-1/2 md:mb-4 sm:mb-8 sm:w-2/3">
                     <!--          <img src="@/assets/images/wallet-phone.png" alt="image">-->
                     <video src="@/assets/video/wallet.webm" loop muted autoplay playsinline/>
                 </div>
-                <div class="w-[55%] pl-8 pr-12 pb-4 md:w-full md:px-0">
+                <div class="w-[55%] pl-8 pr-12 pb-4 md:w-full md:px-0 md:pb-10">
                     <h2 class="text-[36px] text-color-gradient font-semibold pt-1 pr-8 mb-10 md:text-[30px]
                     sm:text-[25px] xs:text-[20px] xs:mb-4 sm:leading-snug">
                         SOLIDTON WALLET: Your Key to the Web3 Ecosystem</h2>
