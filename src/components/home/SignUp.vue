@@ -9,14 +9,19 @@ import {InputText, Button} from "primevue";
                 <div class="pt-2 pb-1 px-2 mb-12">
                     <span class="text-white text-xl">Sign Up for Exclusive Updates!</span>
                 </div>
-                <div class="flex px-2">
-                    <InputText/><Button/>
+                <div class="flex px-2 gap-8">
+                    <InputText placeholder="abc@gmail.com"
+                               class="input-apply"/>
+                    <Button class="bg-transparent text-white px-12" label="Submit"/>
                 </div>
             </div>
         </div>
     </section>
 </template>
 
-<style lang="css">
-
+<style lang="css" scoped>
+    .input-apply {
+        @apply rounded-full border border-solid border-gray-350 bg-transparent placeholder:text-gray-350
+        text-white py-3.5 px-6 w-[23rem];
+    }
 </style>

@@ -7,7 +7,7 @@ import {Accordion, AccordionContent, AccordionHeader, AccordionPanel, Button} fr
     <section class="w-full">
         <div class="container">
             <div class="py-16">
-                <h2 class="text-color-gradient font-semibold text-[40px] text-center mb-6 py-1">Q & A</h2>
+                <h2 class="text-color-gradient font-semibold text-[40px] text-center mb-6 py-1">Q & Al</h2>
                 <div class="px-16 py-10 mb-10">
                     <Accordion>
                         <AccordionPanel v-for="n in 9" :value="n" class="border-b border-solid border-white mb-8">
