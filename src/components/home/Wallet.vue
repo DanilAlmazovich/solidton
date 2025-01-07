@@ -19,7 +19,7 @@ import {Button} from "primevue";
                         managing digital assets. The app will be available for iPhone and Android, offering secure,
                         fast, and
                         reliable management of your digital assets</p>
-                    <Button class="px-14 py-4 text-white lg:px-8 lg:py-3 lg:text-base sm:text-sm sm:py-2"
+                    <Button class="button-base"
                             severity="contrast" rounded label="Learn More"/>
                 </div>
             </div>

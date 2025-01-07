@@ -27,7 +27,7 @@ import {Button} from "primevue";
                             providing freedom, control,
                             and growth for every user.</p>
                     </div>
-                    <Button class="px-[3.7rem] py-4 text-white lg:py-3 lg:text-base sm:text-sm sm:py-2" severity="contrast" rounded label="Learn more"/>
+                    <Button class="button-base" severity="contrast" rounded label="Learn more"/>
                 </div>
                 <div class="w-[50%] flex flex-col items-center pt-10 pl-4 md:pt-0 md:px-0 md:w-2/3 sm:w-3/4 xs:w-full">
                     <div class="flex items-center justify-center w-full">

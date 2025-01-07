@@ -28,7 +28,7 @@ import {Button} from "primevue";
                         <p class="text-white sm:text-sm">Solidton DEX ensures open, secure, and accessible trading for
                             everyone.</p>
                     </div>
-                    <Button class="px-[3.75rem] py-4 text-white lg:px-8 lg:py-3 lg:text-base sm:text-sm sm:py-2"
+                    <Button class="button-base"
                             severity="contrast" rounded label="Learn More"/>
                 </div>
             </div>

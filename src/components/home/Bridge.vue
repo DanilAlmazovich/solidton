@@ -23,7 +23,7 @@ import {Button} from "primevue";
             </ul>
             <p class="text-white sm:text-sm">Unlock the freedom of multi-blockchain functionality with Solidton Bridge.</p>
           </div>
-          <Button class="px-[3.7rem] py-4 text-white lg:py-3 lg:text-base sm:text-sm sm:py-2" severity="contrast" rounded label="Learn more"/>
+          <Button class="button-base" severity="contrast" rounded label="Learn more"/>
         </div>
         <div class="w-[40%] flex flex-col items-center pl-4 pt-10 md:w-3/4 md:py-0 sm:w-full">
           <div class="flex items-center justify-center transform scale-[130%] md:scale-[100%]">

@@ -22,7 +22,7 @@ import {Button} from "primevue";
                         <p class="text-white mb-6 leading-[31.5px] sm:leading-snug sm:text-sm">Join SolidTrust to experience safe, transparent, and
                             reliable blockchain interactions like never before.</p>
                     </div>
-                    <Button class="px-[3.75rem] py-4 text-white lg:py-3 lg:text-base sm:text-sm sm:py-2" severity="contrast" rounded label="Learn More"/>
+                    <Button class="button-base" severity="contrast" rounded label="Learn More"/>
                 </div>
             </div>
         </div>

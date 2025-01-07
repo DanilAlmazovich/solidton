@@ -29,7 +29,7 @@ import {Button} from "primevue";
                     <p class="text-white mb-10 leading-[1.969rem] text-lg sm:text-sm sm:leading-snug">Take the leap with Solidton and be part of a
                         revolution that started on TON but now leads its own path as
                         an ecosystem leader</p>
-                    <Button class="px-[3.7rem] py-4 text-white lg:py-3 lg:text-base sm:text-sm sm:py-2" severity="contrast" rounded label="Learn More"/>
+                    <Button class="button-base" severity="contrast" rounded label="Learn More"/>
                 </div>
             </div>
         </div>

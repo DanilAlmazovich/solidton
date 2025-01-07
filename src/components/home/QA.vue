@@ -28,7 +28,7 @@ import {Accordion, AccordionContent, AccordionHeader, AccordionPanel, Button} fr
                     </Accordion>
                 </div>
                 <div class="flex justify-center items-center py-16 md:py-6">
-                    <Button class="px-[3.75rem] py-4 text-white cursor-pointer lg:py-3 lg:text-base sm:text-sm sm:py-2" severity="contrast" rounded label="Show more"/>
+                    <Button class="button-base" severity="contrast" rounded label="Show more"/>
                 </div>
             </div>
         </div>

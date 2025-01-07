@@ -16,7 +16,7 @@ import {Button} from "primevue";
                         Support the network, enhance its stability, and grow your assets with ease. Staking on Solidton
                         is secure,
                         efficient, and designed to maximize your returns while contributing to the ecosystem</p>
-                    <Button class="px-[4.5rem] py-4 text-white mt-1 lg:py-3 lg:text-base sm:text-sm sm:py-2"
+                    <Button class="button-base"
                             severity="contrast" rounded label="Buy now"/>
                 </div>
                 <div class="w-[43%] pr-10 flex flex-col items-center md:w-2/3 md:pr-0 xs:w-full">

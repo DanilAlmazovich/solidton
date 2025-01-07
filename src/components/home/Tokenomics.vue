@@ -4,7 +4,7 @@ import {Button} from "primevue";
 </script>
 
 <template>
-    <section class="w-full pt-[25rem] pb-[10rem] md:pt-[15rem]" id="tokenomics">
+    <section class="w-full pt-[25rem] pb-[15rem] md:pt-[15rem]" id="tokenomics">
         <div class="container">
             <div class="flex flex-col items-center py-4 mb-6">
                 <h2 class="text-color-gradient font-bold text-[44px] text-center mb-6 md:pt-8 md:text-[30px]
@@ -26,7 +26,7 @@ import {Button} from "primevue";
                 <img src="@/assets/images/chart.png" alt="">
             </div>
             <div class="flex justify-center items-center pt-2 mb-16">
-                <Button class="px-[3.75rem] py-4 text-white cursor-pointer lg:py-3 lg:text-base sm:text-sm sm:py-2"
+                <Button class="button-base"
                         severity="contrast" rounded label="Learn More"/>
             </div>
         </div>
