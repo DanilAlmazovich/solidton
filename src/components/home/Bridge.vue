@@ -17,7 +17,7 @@ import {Button} from "primevue";
               Transfer SON tokens or other assets to networks like Ethereum or Binance Smart Chain effortlessly</p>
             <span class="text-white sm:text-sm">With Solidton Bridge, you get:</span>
             <ul class="text-white pl-4 mb-6 sm:text-sm list-disc">
-              <li>Fast and secure cross-chain transfers.  </li>
+              <li>Fast and secure cross-chain transfers.</li>
               <li>Lower fees on cost-efficient blockchains.</li>
               <li>Access to dApps across multiple networks. </li>
             </ul>

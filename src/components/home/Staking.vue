@@ -11,7 +11,7 @@ import {Button} from "primevue";
                     <h2 id="staking" class="text-[40px] text-color-gradient font-semibold pt-2 mb-10 pr-6 leading-[3.3rem]
                     md:text-[30px] sm:text-[25px] xs:text-[20px] sm:leading-snug">
                         Solidton Staking: Multiply Your SON Tokens Effortlessly</h2>
-                    <p class="text-white mb-10 sm:text-sm"> Мелкий шрифт (подробности) Earn rewards by staking your SON
+                    <p class="text-white mb-10 sm:text-sm">Мелкий шрифт (подробности) Earn rewards by staking your SON
                         tokens directly on the Solidton platform.
                         Support the network, enhance its stability, and grow your assets with ease. Staking on Solidton
                         is secure,
