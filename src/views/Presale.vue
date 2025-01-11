@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import Promo from "@/components/elements/Promo.vue";
 import Calc from "@/components/elements/Calc.vue";
+import Buy from "@/components/presale/Buy.vue";
 </script>
 
 <template>
@@ -9,6 +10,7 @@ import Calc from "@/components/elements/Calc.vue";
         z-[-5] rounded-full transform scale-[260%] blue-shadow"></div>
         <Promo/>
         <Calc/>
+        <Buy/>
         <div class="flex w-full h-full absolute bg-black z-[-10] inset-0"/>
     </div>
 </template>
