@@ -6,7 +6,7 @@ import {Button} from "primevue";
     <section>
         <div class="container">
             <div class="flex justify-between items-center pt-8 md:flex-col-reverse md:pt-0">
-                <div class="w-[50%] flex items-center justify-center pb-16 md:w-2/3 sm:w-3/4 xs:w-full md:pb-2">
+                <div class="w-[50%] flex items-center justify-center pb-16 md:w-2/3 sm:w-full xs:w-full md:pb-2">
                     <!--          <img src="@/assets/images/TON-QR.png" alt="image">-->
                     <video src="@/assets/video/ton.webm" playsinline loop autoplay muted/>
                 </div>

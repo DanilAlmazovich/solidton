@@ -6,7 +6,7 @@ import {Button} from "primevue";
     <section>
         <div class="container">
             <div class="flex pt-3 justify-between items-center pb-16 md:flex-col-reverse md:items-center md:pb-4">
-                <div class="w-[37%] flex items-center justify-center md:w-1/2 md:mb-4 sm:mb-8 sm:w-2/3">
+                <div class="w-[37%] flex items-center justify-center md:w-2/3 md:mb-4 sm:mb-8 sm:w-full">
                     <!--          <img src="@/assets/images/wallet-phone.png" alt="image">-->
                     <video src="@/assets/video/wallet.webm" loop muted autoplay playsinline/>
                 </div>

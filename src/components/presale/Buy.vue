@@ -11,7 +11,7 @@
           <span class="text-[32px] text-white font-bold text-center pb-2">Buying SON with</span>
           <span class="text-[32px] text-white font-bold text-center pb-2">TON,ETH USDT USDC or BNB</span>
         </div>
-        <div class="bg-[#020202] border border-solid border-[#323232] rounded-3xl py-10 px-20">
+        <div class="bg-[#020202] border border-solid border-[#323232] rounded-3xl py-10 px-20 mb-20">
           <h4 class="font-bold text-[30px] text-white text-center mb-5">Step 1 - Wallet Setup</h4>
           <p class="text-white/80 text-center mb-10">Welcome aboard! Start by setting up a compatible wallet depending on your preferred blockchain network:</p>
           <ul class="list-disc text-center flex flex-col items-center mb-8">
@@ -46,9 +46,15 @@
             to collect your SON tokens directly through our website or opt for an airdrop straight to your wallet. In the
             meantime, monitor your investments and token prices from your dashboard. Simply connect your wallet to our website,
             and you’re all set!</p>
-          <div class="px-40 mb-10">
-            <video src="@/assets/video/token.webm" autoplay muted loop playsinline/>
+          <div class="mb-10 h-[400px] flex justify-center items-center">
+            <video class="w-auto h-full" src="@/assets/video/token.webm" autoplay muted loop playsinline/>
           </div>
+        </div>
+        <div class="py-8 mb-2">
+          <p class="text-white leading-[32.4px] text-center px-16 mb-5 text-lg">Please note that SON tokens will be distributed
+            to purchasers through an airdrop or a claim process available on our website. Tokens will only be sent to
+            the wallet address used at the time of purchase. It is crucial to maintain access to your wallet, as recovery
+            of tokens is not possible if access is lost. Keep your wallet details secure.</p>
         </div>
       </div>
     </div>

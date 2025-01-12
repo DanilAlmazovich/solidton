@@ -18,7 +18,7 @@
         </div>
         <div class="w-full rounded px-6 flex items-center justify-center md:px-0">
 <!--          <img class="w-full" src="@/assets/images/pump-pad.png" alt="image">-->
-            <video class="w-1/2 md:w-3/4 sm:w-4/5 xs:w-full" src="@/assets/video/pumppad.webm" playsinline  loop autoplay muted/>
+            <video class="w-1/2 md:w-3/4 sm:w-full xs:w-full" src="@/assets/video/pumppad.webm" playsinline  loop autoplay muted/>
         </div>
       </div>
     </div>

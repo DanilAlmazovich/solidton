@@ -15,6 +15,16 @@ const routes = [
                 path: '/presale',
                 name: 'presale',
                 component: () => import('@/views/Presale.vue')
+            },
+            {
+                path: '/bridge',
+                name: 'bridge',
+                component: () => import('@/views/Bridge.vue')
+            },
+            {
+                path: '/dex',
+                name: 'dex',
+                component: () => import('@/views/Dex.vue')
             }
         ]
     }

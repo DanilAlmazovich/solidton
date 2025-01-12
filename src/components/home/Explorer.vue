@@ -17,7 +17,7 @@
             with advanced features to make blockchain data clear and accessible.02:42</p>
         </div>
         <div class="w-full rounded px-6 flex items-center justify-center md:px-0">
-            <video class="w-[45%] md:w-2/3 sm:w-3/4 xs:w-full" src="@/assets/video/explorer.webm" playsinline  loop autoplay muted/>
+            <video class="w-[45%] md:w-2/3 sm:w-full xs:w-full" src="@/assets/video/explorer.webm" playsinline  loop autoplay muted/>
 <!--          <img class="w-full" src="@/assets/images/explorer-block.png" alt="image">-->
         </div>
       </div>
