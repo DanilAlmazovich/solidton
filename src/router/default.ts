@@ -12,17 +12,17 @@ const routes = [
                 component: () => import('@/views/Index.vue')
             },
             {
-                path: '/presale',
+                path: 'presale',
                 name: 'presale',
                 component: () => import('@/views/Presale.vue')
             },
             {
-                path: '/bridge',
+                path: 'bridge',
                 name: 'bridge',
                 component: () => import('@/views/Bridge.vue')
             },
             {
-                path: '/dex',
+                path: 'dex',
                 name: 'dex',
                 component: () => import('@/views/Dex.vue')
             }
