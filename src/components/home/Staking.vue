@@ -20,8 +20,8 @@ import {Button} from "primevue";
                             severity="contrast" rounded label="Buy now"/>
                 </div>
                 <div class="w-[43%] pr-10 flex flex-col items-center md:w-2/3 md:pr-0 sm:w-full">
-                    <div class="flex items-center justify-center mb-4">
-                        <video src="@/assets/video/staking.webm" playsinline loop autoplay muted/>
+                    <div class="flex items-center justify-center mb-4 md:h-[438px] sm:h-[454px]">
+                        <video class="w-full h-full object-contain" src="@/assets/video/staking.webm" playsinline loop autoplay muted/>
                     </div>
                     <div class="flex justify-center w-1/2 pl-5 md:w-full">
                         <span class="text-white text-xs font-medium leading-snug">Try Me Experience a preview of our upcoming app's features!</span>
