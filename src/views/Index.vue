@@ -23,9 +23,11 @@ import promo from '@/assets/animations/promo.json'
 <template>
 
   <div class="relative overflow-hidden pt-[80px]">
-    <div class="absolute right-[-2rem] top-0 z-[-2] w-[58%] xl:top-[2rem] xl:right-[-4rem] md:hidden">
+    <div class="absolute right-[-4rem] top-[10rem] z-[-2] w-[58%] xl:top-[10rem] xl:right-[-0rem] md:hidden lg:">
+      <div class="w-[700px] h-[700px] xl:w-[660px] xl:h-[660px] lg:w-[550px] lg:h-[550px]">
+        <Vue3Lottie width="100%" height="auto" loop :animation-data="promo" renderer="canvas"/>
+      </div>
       <!--            <video src="@/assets/video/promo.webm" playsinline autoplay muted loop/>-->
-      <Vue3Lottie loop :animation-data="promo" renderer="canvas"/>
     </div>
     <Promo/>
     <Wallet/>
