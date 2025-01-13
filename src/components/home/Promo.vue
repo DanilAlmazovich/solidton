@@ -9,7 +9,8 @@ import promo from '@/assets/animations/promo.json'
   <section>
     <div class="container">
       <div class="hidden md:flex md:h-[584px] sm:h-[404px]">
-        <video class="w-full h-full object-contain" src="@/assets/video/promo.webm" playsinline autoplay muted loop/>
+<!--        <video class="w-full h-full object-contain" src="@/assets/video/promo.webm" playsinline autoplay muted loop/>-->
+        <Vue3Lottie loop :animation-data="promo" height="100%" width="100%" renderer="canvas"/>
       </div>
       <div class="w-1/2 pt-[12rem] pb-[8rem] xl:pt-[8rem] lg:pt-[4rem] md:w-full md:pb-[6rem] md:pt-0">
         <h1

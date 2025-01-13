@@ -25,7 +25,7 @@ import promo from '@/assets/animations/promo.json'
   <div class="relative overflow-hidden pt-[80px]">
     <div class="absolute right-[-2rem] top-0 z-[-2] w-[58%] xl:top-[2rem] xl:right-[-4rem] md:hidden">
       <!--            <video src="@/assets/video/promo.webm" playsinline autoplay muted loop/>-->
-      <Vue3Lottie loop :animation-data="promo" :height="1000" :width="1000" renderer="canvas"/>
+      <Vue3Lottie loop :animation-data="promo" renderer="canvas"/>
     </div>
     <Promo/>
     <Wallet/>
