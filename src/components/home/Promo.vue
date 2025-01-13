@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import {Button} from "primevue";
 import Icon from "@/components/Icon.vue";
+import { Vue3Lottie } from 'vue3-lottie'
+import promo from '@/assets/animations/promo.json'
 </script>
 
 <template>
