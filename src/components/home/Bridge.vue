@@ -7,7 +7,7 @@ import {Button} from "primevue";
   <section>
     <div class="container">
       <div class="flex justify-between py-16 items-center md:flex-col md:py-0">
-        <div class="w-[55%] pt-2 pl-4 md:w-full md:px-0">
+        <div class="w-[55%] pt-2 pl-4 md:w-full md:px-0 md:mb-2">
           <h2 id="bridge" class="text-[40px] text-color-gradient font-semibold pt-2 mb-10 pr-16 leading-[3.3rem]
           md:text-[30px] sm:text-[25px] xs:text-[20px] sm:leading-snug">
               Solidton Bridge: Connect Blockchains, Expand Possibilities
@@ -25,9 +25,10 @@ import {Button} from "primevue";
           </div>
           <Button class="button-base" severity="contrast" rounded label="Learn more"/>
         </div>
-        <div class="w-[40%] flex flex-col items-center pl-4 pt-10 md:w-3/4 md:py-0 sm:w-full">
-          <div class="flex items-center justify-center transform scale-[130%] md:scale-[100%]">
-              <video src="@/assets/video/bridge.webm" playsinline  autoplay muted loop/>
+        <div class="w-[40%] flex flex-col items-center pl-4 pt-10 md:w-full md:py-0 sm:w-full">
+          <div class="flex items-center justify-center transform overflow-hidden md:h-[568px] sm:h-[388px]">
+              <video class="scale-[130%] sm:scale-[140%] w-full h-full object-contain"
+                     src="@/assets/video/bridge.webm" playsinline  autoplay muted loop/>
           </div>
         </div>
       </div>

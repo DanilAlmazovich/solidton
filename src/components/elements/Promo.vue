@@ -1,5 +1,10 @@
 <script setup lang="ts">
-
+const props = defineProps({
+    title: {
+        type: String,
+        default: ''
+    }
+})
 </script>
 
 <template>
@@ -7,7 +12,9 @@
         <div class="container">
             <div class="flex justify-center">
                 <div class="flex flex-col items-center py-28 mb-20">
-                    <h1 class="text-[64px] font-extrabold text-color-gradient text-center leading-none mb-4">Presale 13</h1>
+                    <h1 class="text-[64px] font-extrabold text-color-gradient text-center leading-none mb-4">{{
+                             props.title
+                        }}</h1>
                     <span class="text-xs uppercase">Next phase begins in</span>
                     <div class="flex justify-center items-center gap-24 py-10">
                         <div class="flex flex-col items-center">

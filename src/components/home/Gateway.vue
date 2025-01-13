@@ -31,7 +31,7 @@ import {Button} from "primevue";
           </div>
           <Button class="button-base" severity="contrast" rounded label="Learn more"/>
         </div>
-        <div class="w-[50%] flex flex-col items-center pt-10 pl-4 md:pt-0 md:px-0 md:w-2/3 sm:w-3/4 xs:w-full">
+        <div class="w-[50%] flex flex-col items-center pt-10 pl-4 md:pt-0 md:px-0 md:w-2/3 sm:w-full xs:w-full">
           <div class="flex items-center justify-center w-full">
             <!--            <img src="@/assets/images/bridge-circle.png" alt="image">-->
             <Icon class="w-full h-full inline-flex" name="gateway"/>
