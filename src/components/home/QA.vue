@@ -37,9 +37,9 @@ import {Accordion, AccordionContent, AccordionHeader, AccordionPanel, Button} fr
 
 <style lang="css">
 .p-accordioncontent-content {
-    background: black;
-    border: none;
-    padding-left: 0;
-    padding-right: 0;
+  background: black;
+  border: none;
+  padding-left: 0;
+  padding-right: 0;
 }
 </style>

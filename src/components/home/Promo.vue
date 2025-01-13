@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import {Button} from "primevue";
 import Icon from "@/components/Icon.vue";
-import { Vue3Lottie } from 'vue3-lottie'
+import {Vue3Lottie} from 'vue3-lottie'
 import promo from '@/assets/animations/promo.json'
 </script>
 
@@ -9,12 +9,12 @@ import promo from '@/assets/animations/promo.json'
   <section>
     <div class="container">
       <div class="hidden md:flex md:h-[584px] sm:h-[404px]">
-<!--        <video class="w-full h-full object-contain" src="@/assets/video/promo.webm" playsinline autoplay muted loop/>-->
+        <!--        <video class="w-full h-full object-contain" src="@/assets/video/promo.webm" playsinline autoplay muted loop/>-->
         <Vue3Lottie loop :animation-data="promo" height="100%" width="100%" renderer="canvas"/>
       </div>
       <div class="w-1/2 pt-[12rem] pb-[8rem] xl:pt-[8rem] lg:pt-[4rem] md:w-full md:pb-[6rem] md:pt-0">
         <h1
-          class="text-[40px] font-bold text-color-gradient leading-[3.255rem] mb-12 lg:text-[30px] lg:leading-[2.5rem] sm:text-[25px]">
+            class="text-[40px] font-bold text-color-gradient leading-[3.255rem] mb-12 lg:text-[30px] lg:leading-[2.5rem] sm:text-[25px]">
           Solidton: A Level 1 Breakthrough on the TON Blockchain That Will Change the World</h1>
         <p class="text-sm text-white leading-relaxed mb-6">Solidton marks a new chapter in decentralized technology. Our
           ecosystem, built on the TON blockchain,

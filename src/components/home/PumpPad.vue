@@ -19,12 +19,12 @@
             thriving blockchain projects.</p>
         </div>
         <div
-          class="w-full rounded px-6 flex items-center justify-center md:px-0 md:h-[316px] sm:h-[420px] overflow-hidden">
+            class="w-full rounded px-6 flex items-center justify-center md:px-0 md:h-[316px] sm:h-[420px] overflow-hidden">
           <!--          <img class="w-full" src="@/assets/images/pump-pad.png" alt="image">-->
-          <video class="w-1/2 md:w-3/4 sm:w-full xs:w-full object-contain md:h-full sm:transform sm:scale-[120%]"
-                 src="@/assets/video/pumppad.webm"
-                 playsinline loop autoplay
-                 muted/>
+          <!--          <video class="w-1/2 md:w-3/4 sm:w-full xs:w-full object-contain md:h-full sm:transform sm:scale-[120%]"-->
+          <!--                 src="@/assets/video/pumppad.webm"-->
+          <!--                 playsinline loop autoplay-->
+          <!--                 muted/>-->
         </div>
       </div>
     </div>

@@ -6,9 +6,11 @@ import {Button} from "primevue";
   <section>
     <div class="container">
       <div class="flex justify-between items-center pt-8 md:flex-col-reverse md:pt-0">
-        <div class="w-[50%] flex items-center justify-center pb-16 md:w-2/3 sm:w-full xs:w-full md:pb-2 overflow-hidden md:h-[400px] sm:h-[404px]">
+        <div
+            class="w-[50%] flex items-center justify-center pb-16 md:w-2/3 sm:w-full xs:w-full md:pb-2 overflow-hidden md:h-[400px] sm:h-[404px]">
           <!--          <img src="@/assets/images/TON-QR.png" alt="image">-->
-          <video class="w-full h-full object-contain sm:transform sm:scale-[120%]" src="@/assets/video/ton.webm" playsinline loop autoplay muted/>
+<!--          <video class="w-full h-full object-contain sm:transform sm:scale-[120%]" src="@/assets/video/ton.webm"-->
+<!--                 playsinline loop autoplay muted/>-->
         </div>
         <div class="w-[50%] pl-8 pb-4 md:w-full md:px-0 md:pb-0">
           <h2 class="text-[40px] text-color-gradient font-semibold pt-1 pr-8 mb-9 leading-[3.3rem]

@@ -7,9 +7,9 @@ import {Button} from "primevue";
     <div class="container">
       <div class="flex pt-3 justify-between items-center pb-16 md:flex-col-reverse">
         <div
-          class="w-[40%] flex justify-center items-center overflow-hidden
+            class="w-[40%] flex justify-center items-center overflow-hidden
           pt-16 md:w-3/4 sm:w-full md:pt-0 xs:w-full md:h-[438px] sm:h-[404px]">
-          <video class="w-full h-full object-contain md:transform md:scale-[120%]" src="@/assets/video/dex.webm" playsinline loop autoplay muted/>
+          <!--          <video class="w-full h-full object-contain md:transform md:scale-[120%]" src="@/assets/video/dex.webm" playsinline loop autoplay muted/>-->
         </div>
         <div class="w-[56%] pr-12 pb-4 pt-32 pl-1 md:w-full md:px-0 lg:pt-8">
           <h2 id="dex" class="text-[40px] text-color-gradient font-semibold pt-3 pr-8 mb-10 leading-[3.255rem] pt-2
