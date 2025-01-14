@@ -11,8 +11,8 @@ import SignUp from "@/components/home/SignUp.vue";
         z-[-5] rounded-full transform scale-[260%] blue-shadow lg:w-full"/>
         <Promo title="Presale 13"/>
         <Calc/>
-        <Buy/>
-        <SignUp/>
+<!--        <Buy/>-->
+<!--        <SignUp/>-->
         <div class="flex w-full h-full absolute bg-black z-[-10] inset-0"/>
     </div>
 </template>
