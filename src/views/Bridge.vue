@@ -6,8 +6,8 @@ import Info from "@/components/elements/Info.vue";
 import Content from "@/components/bridge/Content.vue";
 
 const info = {
-    title: `Solidton Bridge: Connect Blockchains, Expand Possibilities`,
-    description: `Solidton Bridge is an innovative solution that enables seamless and secure asset transfers between different
+  title: `Solidton Bridge: Connect Blockchains, Expand Possibilities`,
+  description: `Solidton Bridge is an innovative solution that enables seamless and secure asset transfers between different
             blockchains. It breaks down barriers and ensures full compatibility, granting access to new ecosystems and
             opportunities. With Solidton Bridge, you can transfer SON tokens or other digital assets between networks
             like Ethereum, Binance Smart Chain, and SolidChain without any hassle.`
@@ -17,7 +17,7 @@ const info = {
 <template>
   <div class="relative overflow-hidden pt-[80px]">
     <div class="absolute right-0 top-[-1300px] left-0 m-auto w-[1000px] h-[1000px] border-[3px] border-solid border-[#6299CD]
-        z-[-5] rounded-full transform scale-[260%] blue-shadow"></div>
+        z-[-5] rounded-full transform scale-[260%] blue-shadow lg:w-full"></div>
     <Promo title="Bridge"/>
     <Info :title="info.title"
           :description="info.description"/>
@@ -30,7 +30,7 @@ const info = {
 
 <style lang="css">
 .blue-shadow {
-    box-shadow: -1px 64px 70px -6px rgba(24, 96, 165, 0.3);
+  box-shadow: -1px 64px 70px -6px rgba(24, 96, 165, 0.3);
 }
 </style>
 

@@ -8,8 +8,8 @@ import {Button} from "primevue";
       <div class="flex pt-3 justify-between items-center pb-16 md:flex-col-reverse">
         <div
             class="w-[40%] flex justify-center items-center pt-16 md:pt-8 md:w-2/3 sm:w-full xs:w-full md:h-[390px] sm:h-[404px] overflow-hidden">
-<!--          <video class="w-full h-full object-contain sm:transform sm:scale-[120%]" src="@/assets/video/trust.webm" loop-->
-<!--                 autoplay muted playsinline/>-->
+          <!--          <video class="w-full h-full object-contain sm:transform sm:scale-[120%]" src="@/assets/video/trust.webm" loop-->
+          <!--                 autoplay muted playsinline/>-->
         </div>
         <div class="w-[52%] pb-4 pt-24 pl-2 md:w-full md:px-0 md:pt-6">
           <h2 id="solidtrust" class="text-[40px] text-color-gradient font-semibold pt-3 pr-8 mb-10 leading-[3.255rem]

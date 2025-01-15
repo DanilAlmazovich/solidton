@@ -29,7 +29,7 @@ import Icon from "@/components/Icon.vue";
                             </div>
                             <span class="text-white text-sm font-product">Proudly partnered with Coinbound — leaders in crypto and Web3 marketing.</span>
                         </div>
-                        <div class="flex justify-between w-[53%] pl-2 pr-12 md:w-full md:pr-0 xs:flex-col xs:mb-8">
+                        <div class="flex justify-between w-[53%] pl-2 pr-12 md:w-full md:pr-0 xs:flex-col xs:mb-8 md:px-0">
                             <div class="grid grid-cols-2 w-[70%] xs:w-full">
                                 <div>
                                     <span class="text-white font-product text-lg">About</span>

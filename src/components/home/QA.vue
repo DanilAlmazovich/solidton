@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import {Accordion, AccordionContent, AccordionHeader, AccordionPanel, Button} from "primevue";
-
 </script>
 
 <template>

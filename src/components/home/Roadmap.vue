@@ -1,7 +1,6 @@
 <script setup lang="ts">
 
-import {Button} from "primevue";
-import {Navigation, Pagination, Scrollbar, A11y} from 'swiper/modules';
+import {Pagination} from 'swiper/modules';
 
 // Import Swiper Vue.js elements
 import {Swiper, SwiperSlide} from 'swiper/vue';

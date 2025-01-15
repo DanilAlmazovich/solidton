@@ -25,7 +25,9 @@ import {Button} from "primevue";
             <p class="text-white sm:text-sm">Unlock the freedom of multi-blockchain functionality with Solidton
               Bridge.</p>
           </div>
-          <Button class="button-base" severity="contrast" rounded label="Learn more"/>
+          <router-link :to="{name: 'bridge'}">
+            <Button class="button-base" severity="contrast" rounded label="Learn more"/>
+          </router-link>
         </div>
         <div class="w-[40%] flex flex-col items-center pl-4 pt-10 md:w-full md:py-0 sm:w-full">
           <div class="flex items-center justify-center transform overflow-hidden md:h-[568px] sm:h-[388px]">

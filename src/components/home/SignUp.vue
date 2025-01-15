@@ -22,6 +22,6 @@ import {InputText, Button} from "primevue";
 <style lang="css" scoped>
 .input-apply {
   @apply rounded-full border border-solid border-gray-350 bg-transparent placeholder:text-gray-350
-  text-white py-3.5 px-6 w-[23rem];
+  text-white py-3.5 px-6 w-[23rem] xs:w-full;
 }
 </style>

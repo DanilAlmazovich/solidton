@@ -9,7 +9,7 @@ import {Button} from "primevue";
         <div
             class="w-[37%] flex items-center justify-center md:w-2/3 md:mb-4 sm:mb-8 sm:w-full md:h-[480px] sm:h-[499px]">
           <!--          <img src="@/assets/images/wallet-phone.png" alt="image">-->
-<!--          <video class="w-full h-full object-contain" src="@/assets/video/wallet.webm" loop muted autoplay playsinline/>-->
+          <!--          <video class="w-full h-full object-contain" src="@/assets/video/wallet.webm" loop muted autoplay playsinline/>-->
         </div>
         <div class="w-[55%] pl-8 pr-12 pb-4 md:w-full md:px-0 md:pb-10">
           <h2 id="wallet" class="text-[36px] text-color-gradient font-semibold pt-1 pr-8 mb-10 md:text-[30px]

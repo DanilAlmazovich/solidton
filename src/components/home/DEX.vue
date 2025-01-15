@@ -30,8 +30,10 @@ import {Button} from "primevue";
             <p class="text-white sm:text-sm">Solidton DEX ensures open, secure, and accessible trading for
               everyone.</p>
           </div>
-          <Button class="button-base"
-                  severity="contrast" rounded label="Learn More"/>
+          <router-link :to="{name: 'dex'}">
+            <Button class="button-base"
+                    severity="contrast" rounded label="Learn More"/>
+          </router-link>
         </div>
       </div>
     </div>
