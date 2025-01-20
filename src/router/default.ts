@@ -25,6 +25,11 @@ const routes = [
                 path: 'dex',
                 name: 'dex',
                 component: () => import('@/views/Dex.vue')
+            },
+            {
+                path: 'example',
+                name: 'example',
+                component: () => import('@/views/Example.vue')
             }
         ]
     }
