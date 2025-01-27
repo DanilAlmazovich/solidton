@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section v-animateonscroll="{ enterClass: 'animate-fadein', leaveClass: 'animate-fadeout' }">
     <div class="container">
       <div class="pt-28 pb-8 md:pt-8">
         <div class="flex justify-center flex-col px-40 mb-4 md:px-0 lg:px-8 xl:px-10">

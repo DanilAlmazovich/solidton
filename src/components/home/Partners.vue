@@ -1,5 +1,5 @@
 <template>
-  <section class="w-full">
+  <section class="w-full" v-animateonscroll="{ enterClass: 'animate-fadein', leaveClass: 'animate-fadeout' }">
     <div class="container">
       <div class="pt-6 pb-20 md:pt-0">
         <h2 class="text-color-gradient font-semibold text-[40px] text-center mb-6 py-1 md:text-[30px]

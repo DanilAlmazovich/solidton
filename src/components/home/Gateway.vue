@@ -4,7 +4,7 @@ import {Button} from "primevue";
 </script>
 
 <template>
-  <section>
+  <section v-animateonscroll="{ enterClass: 'animate-fadein', leaveClass: 'animate-fadeout' }">
     <div class="container">
       <div class="flex justify-between py-32 items-center md:pb-8 md:pt-0 md:flex-col">
         <div class="w-[48.5%] pt-2 md:w-full md:mb-10">

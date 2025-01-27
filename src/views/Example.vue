@@ -21,21 +21,21 @@ import data16 from "@/animation-example/16th.json";
 <template>
   <div class="container">
     <div class="grid grid-cols-2 gap-8">
-      <div>
-        <Vue3Lottie loop :animation-data="data" height="100%" width="100%"/>
-      </div>
+<!--      <div>-->
+<!--        <Vue3Lottie loop :animation-data="data" height="100%" width="100%"/>-->
+<!--      </div>-->
       <div>
         <Vue3Lottie loop :animation-data="data1" height="100%" width="100%"/>
       </div>
-      <div>
-        <Vue3Lottie loop :animation-data="data2" height="100%" width="100%"/>
-      </div>
-      <div>
-        <Vue3Lottie loop :animation-data="data3" height="100%" width="100%"/>
-      </div>
-      <div>
-        <Vue3Lottie loop :animation-data="data4" height="100%" width="100%"/>
-      </div>
+<!--      <div>-->
+<!--        <Vue3Lottie loop :animation-data="data2" height="100%" width="100%"/>-->
+<!--      </div>-->
+<!--      <div>-->
+<!--        <Vue3Lottie loop :animation-data="data3" height="100%" width="100%"/>-->
+<!--      </div>-->
+<!--      <div>-->
+<!--        <Vue3Lottie loop :animation-data="data4" height="100%" width="100%"/>-->
+<!--      </div>-->
 <!--      <div>-->
 <!--        <Vue3Lottie loop :animation-data="data5" height="100%" width="100%"/>-->
 <!--      </div>-->

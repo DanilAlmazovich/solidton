@@ -16,7 +16,7 @@ const modules = [Pagination]
 </script>
 
 <template>
-  <section class="w-full pb-[8rem] md:pb-2">
+  <section class="w-full pb-[8rem] md:pb-2" v-animateonscroll="{ enterClass: 'animate-fadein', leaveClass: 'animate-fadeout' }">
     <div class="container">
       <div class="pt-24">
         <h2 id="roadmap" class="text-color-gradient font-bold text-[48px] text-center mb-6 py-1 md:text-[30px]

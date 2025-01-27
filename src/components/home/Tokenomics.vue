@@ -5,7 +5,7 @@ import {Button} from "primevue";
 <template>
   <section class="w-full pt-[25rem] pb-[15rem] md:pt-[15rem]">
     <div class="container">
-      <div class="flex flex-col items-center py-4 mb-6">
+      <div class="flex flex-col items-center py-4 mb-6" v-animateonscroll="{ enterClass: 'animate-fadein', leaveClass: 'animate-fadeout' }">
         <h2 id="tokenomics" class="text-color-gradient font-bold text-[44px] text-center mb-6 md:pt-8 md:text-[30px]
           sm:text-[25px] xs:text-[20px] sm:leading-snug">Tokenomics</h2>
         <p class="text-white leading-[31.5px] text-lg text-center mb-8 sm:leading-snug lg:text-base sm:text-sm">Token
@@ -23,7 +23,7 @@ import {Button} from "primevue";
           allocated specifically
           for staking rewards.</p>
       </div>
-      <div class="py-5 flex justify-center mb-32 md:mb-16">
+      <div class="py-5 flex justify-center mb-32 md:mb-16" v-animateonscroll="{ enterClass: 'animate-fadein', leaveClass: 'animate-fadeout' }">
         <img src="@/assets/images/chart.png" alt="">
       </div>
       <div class="flex justify-center items-center pt-2 mb-16">

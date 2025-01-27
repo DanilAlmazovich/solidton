@@ -10,6 +10,8 @@ import primeVueOptions from "@/configs/primevue"
 import ToastService from 'primevue/toastservice'
 import Tooltip from 'primevue/tooltip'
 import ConfirmationService from 'primevue/confirmationservice'
+import AnimateOnScroll from 'primevue/animateonscroll';
+
 
 const app = createApp(App)
 
@@ -17,6 +19,8 @@ app.use(PrimeVue, primeVueOptions)
     .use(ToastService)
     .use(ConfirmationService)
     .directive('tooltip', Tooltip)
+    .directive('animateonscroll', AnimateOnScroll);
+
 
 
 app.use(createPinia())

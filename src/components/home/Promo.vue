@@ -6,7 +6,7 @@ import promo from '@/assets/animations/promo.json'
 </script>
 
 <template>
-  <section>
+  <section v-animateonscroll="{ enterClass: 'animate-fadein', leaveClass: 'animate-fadeout' }">
     <div class="hidden md:flex md:h-full sm:h-full w-full">
       <Vue3Lottie loop :animation-data="promo" height="100%" width="100%"/>
     </div>
