@@ -8,7 +8,7 @@ import data5 from "@/animation-example/5.json";
 import data6 from "@/animation-example/6.json";
 import data7 from "@/animation-example/7.json";
 import data9 from "@/animation-example/9.json";
-// import data10 from "@/assets/animations/10.json";
+import data10 from "@/animation-example/10.json";
 import data11 from "@/animation-example/11.json";
 import data12 from "@/animation-example/12.json";
 import data13 from "@/animation-example/11 (2).json";
@@ -17,45 +17,57 @@ import data13 from "@/animation-example/11 (2).json";
 <template>
   <div class="container">
     <div class="grid grid-cols-2 gap-8">
-      <div>
-        <Vue3Lottie loop :animation-data="data1" height="100%" width="100%"/>
-      </div>
-      <div>
-        <Vue3Lottie loop :animation-data="data2" height="100%" width="100%"/>
-      </div>
+<!--      <div>-->
+<!--        1-->
+<!--        <Vue3Lottie loop :animation-data="data1" height="100%" width="100%"/>-->
+<!--      </div>-->
+<!--      <div>-->
+<!--        2-->
+<!--        <Vue3Lottie loop :animation-data="data2" height="100%" width="100%"/>-->
+<!--      </div>-->
 <!--      <div>-->
 <!--        <Vue3Lottie loop :animation-data="data2" height="100%" width="100%"/>-->
 <!--      </div>-->
+<!--      <div>-->
+<!--        3-->
+<!--        <Vue3Lottie loop :animation-data="data3" height="100%" width="100%"/>-->
+<!--      </div>-->
       <div>
-        <Vue3Lottie loop :animation-data="data3" height="100%" width="100%"/>
-      </div>
-      <div>
+        4
         <Vue3Lottie loop :animation-data="data4" height="100%" width="100%"/>
       </div>
       <div>
+        5
         <Vue3Lottie loop :animation-data="data5" height="100%" width="100%"/>
       </div>
-      <div>
-        <Vue3Lottie loop :animation-data="data6" height="100%" width="100%"/>
-      </div>
-      <div>
-        <Vue3Lottie loop :animation-data="data7" height="100%" width="100%"/>
-      </div>
-      <div>
-        <Vue3Lottie loop :animation-data="data11" height="100%" width="100%"/>
-      </div>
-      <div>
-        <Vue3Lottie loop :animation-data="data9" height="100%" width="100%"/>
-      </div>
 <!--      <div>-->
+<!--        6-->
+<!--        <Vue3Lottie loop :animation-data="data6" height="100%" width="100%"/>-->
+<!--      </div>-->
+<!--      <div>-->
+<!--        7-->
+<!--        <Vue3Lottie loop :animation-data="data7" height="100%" width="100%"/>-->
+<!--      </div>-->
+<!--      <div>-->
+<!--        11-->
+<!--        <Vue3Lottie loop :animation-data="data11" height="100%" width="100%"/>-->
+<!--      </div>-->
+<!--      <div>-->
+<!--        9-->
+<!--        <Vue3Lottie loop :animation-data="data9" height="100%" width="100%"/>-->
+<!--      </div>-->
+<!--      <div>-->
+<!--        10-->
 <!--        <Vue3Lottie loop :animation-data="data10" height="100%" width="100%"/>-->
 <!--      </div>-->
       <div>
+        12
         <Vue3Lottie loop :animation-data="data12" height="100%" width="100%"/>
       </div>
-      <div>
-        <Vue3Lottie loop :animation-data="data13" height="100%" width="100%"/>
-      </div>
+<!--      <div>-->
+<!--        13-->
+<!--        <Vue3Lottie loop :animation-data="data13" height="100%" width="100%"/>-->
+<!--      </div>-->
 <!--      <div>-->
 <!--        <Vue3Lottie loop :animation-data="data15" height="100%" width="100%"/>-->
 <!--      </div>-->

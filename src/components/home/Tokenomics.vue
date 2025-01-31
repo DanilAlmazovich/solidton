@@ -23,7 +23,7 @@ import {Button} from "primevue";
           allocated specifically
           for staking rewards.</p>
       </div>
-      <div class="py-5 flex justify-center mb-32 md:mb-16" v-animateonscroll="{ enterClass: 'animate-fadein', leaveClass: 'animate-fadeout' }">
+      <div class="py-5 flex justify-center mb-16 md:mb-16" v-animateonscroll="{ enterClass: 'animate-fadein', leaveClass: 'animate-fadeout' }">
         <img src="@/assets/images/chart.png" alt="">
       </div>
       <div class="flex justify-center items-center pt-2">

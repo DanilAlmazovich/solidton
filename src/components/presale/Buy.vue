@@ -1,5 +1,8 @@
 <script setup lang="ts">
 
+import purchaseProcess from "@/assets/animations/purchase-process.json";
+import tokenReception from "@/assets/animations/token-reception.json";
+import {Vue3Lottie} from "vue3-lottie";
 </script>
 
 <template>
@@ -59,7 +62,8 @@
             them,
             and grow your holdings.</p>
           <div class="px-40 mb-10 h-[400px] lg:px-0">
-            <video class="w-full h-full" src="@/assets/video/tics.webm" autoplay muted loop playsinline/>
+            <Vue3Lottie loop :animation-data="purchaseProcess" height="100%" width="100%"/>
+<!--            <video class="w-full h-full" src="@/assets/video/tics.webm" autoplay muted loop playsinline/>-->
           </div>
           <h4 class="font-bold text-[30px] text-white text-center mb-5 lg:text-xl md:text-lg sm:text-base">Step 3 -
             Token Reception</h4>
@@ -72,7 +76,8 @@
             website,
             and you’re all set!</p>
           <div class="mb-10 h-[400px] flex justify-center items-center">
-            <video class="w-auto h-full" src="@/assets/video/token.webm" autoplay muted loop playsinline/>
+            <Vue3Lottie loop :animation-data="tokenReception" height="100%" width="100%"/>
+<!--            <video class="w-auto h-full" src="@/assets/video/token.webm" autoplay muted loop playsinline/>-->
           </div>
         </div>
         <div class="py-8 mb-2">
@@ -88,7 +93,3 @@
     </div>
   </section>
 </template>
-
-<style scoped lang="css">
-
-</style>
