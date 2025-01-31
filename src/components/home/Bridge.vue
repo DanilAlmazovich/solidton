@@ -1,15 +1,16 @@
 <script setup lang="ts">
-
 import {Button} from "primevue";
+import bridge from "@/assets/animations/bridge.json";
+import {Vue3Lottie} from "vue3-lottie";
 </script>
 
 <template>
   <section v-animateonscroll="{ enterClass: 'animate-fadein', leaveClass: 'animate-fadeout' }">
     <div class="container">
-      <div class="flex justify-between py-16 items-center md:flex-col md:py-0">
-        <div class="w-[55%] pt-2 pl-4 md:w-full md:px-0 md:mb-2">
-          <h2 id="bridge" class="text-[40px] text-color-gradient font-semibold pt-2 mb-10 pr-16 leading-[3.3rem]
-          md:text-[30px] sm:text-[25px] xs:text-[20px] sm:leading-snug">
+      <div class="flex justify-between pt-24 items-center md:flex-col">
+        <div class="w-[55%]  md:w-full md:px-0 md:mb-2">
+          <h2 id="bridge" class="text-[36px] text-color-gradient font-semibold mb-10 md:text-[30px]
+                    sm:text-[25px] xs:text-[20px] xs:mb-4 sm:leading-snug">
             Solidton Bridge: Connect Blockchains, Expand Possibilities
           </h2>
           <div class="mb-12">
@@ -29,10 +30,9 @@ import {Button} from "primevue";
             <Button class="button-base" severity="contrast" rounded label="Learn more"/>
           </router-link>
         </div>
-        <div class="w-[40%] flex flex-col items-center pl-4 pt-10 md:w-full md:py-0 sm:w-full">
-          <div class="flex items-center justify-center transform overflow-hidden md:h-[568px] sm:h-[388px]">
-            <!--              <video class="scale-[130%] sm:scale-[140%] w-full h-full object-contain"-->
-            <!--                     src="@/assets/video/bridge.webm" playsinline  autoplay muted loop/>-->
+        <div class="w-[40%] flex flex-col items-center md:w-full md:py-0 sm:w-full">
+          <div class="flex items-center justify-center transform overflow-hidden">
+            <Vue3Lottie loop :animation-data="bridge" height="100%" width="100%"/>
           </div>
         </div>
       </div>

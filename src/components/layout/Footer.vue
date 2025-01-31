@@ -6,11 +6,8 @@ import Icon from "@/components/Icon.vue";
 
 <template>
   <footer class="relative  overflow-hidden">
-    <div v-animateonscroll="{ enterClass: 'animate-fadein', leaveClass: 'animate-fadeout' }" class="relative py-1">
+    <div class="relative py-1">
       <div class="absolute bg-black w-full h-full inset-0 z-[-10]"/>
-      <!--        <div class="absolute bg-black left-0 right-0 bottom-0 m-auto z-[-5]">-->
-      <!--            <Icon class="opacity-50" name="footer-blur"/>-->
-      <!--        </div>-->
       <div class="container">
         <div class="border-t border-solid border-white py-10">
           <div class="flex justify-between w-full md:flex-col ">
@@ -109,7 +106,7 @@ import Icon from "@/components/Icon.vue";
         </div>
       </div>
     </div>
-    <div v-animateonscroll="{ enterClass: 'animate-fadein', leaveClass: 'animate-fadeout' }" class="bg-black">
+    <div class="bg-black">
       <div class="footer-bottom-gradient">
         <div class="container flex flex-col items-center justify-center py-2">
           <span class="text-sm text-white text-center">2024 Copyright Solidton. All rights reserved.</span>

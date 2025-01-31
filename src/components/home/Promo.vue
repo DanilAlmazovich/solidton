@@ -6,12 +6,12 @@ import promo from '@/assets/animations/promo.json'
 </script>
 
 <template>
-  <section v-animateonscroll="{ enterClass: 'animate-fadein', leaveClass: 'animate-fadeout' }">
+  <section>
     <div class="hidden md:flex md:h-full sm:h-full w-full">
       <Vue3Lottie loop :animation-data="promo" height="100%" width="100%"/>
     </div>
     <div class="container">
-      <div class="w-1/2 pt-[12rem] pb-[8rem] xl:pt-[8rem] lg:pt-[4rem] md:w-full md:pb-[6rem] md:pt-0">
+      <div class="w-1/2 pt-[12rem] pb-[5rem] xl:pt-[8rem] lg:pt-[4rem] md:w-full md:pb-[6rem] md:pt-0">
         <h1
             class="text-[40px] font-bold text-color-gradient leading-[3.255rem] mb-12 lg:text-[30px] lg:leading-[2.5rem] sm:text-[25px]">
           Solidton: A Level 1 Breakthrough on the TON Blockchain That Will Change the World</h1>

@@ -1,21 +1,24 @@
 <script setup lang="ts">
 import {Button} from "primevue";
+import solidTrust from "@/assets/animations/solid-trust.json";
+import {Vue3Lottie} from "vue3-lottie";
 </script>
 
 <template>
   <section v-animateonscroll="{ enterClass: 'animate-fadein', leaveClass: 'animate-fadeout' }">
     <div class="container">
-      <div class="flex pt-3 justify-between items-center pb-16 md:flex-col-reverse">
-        <div
-            class="w-[40%] flex justify-center items-center pt-16 md:pt-8 md:w-2/3 sm:w-full xs:w-full md:h-[390px] sm:h-[404px] overflow-hidden">
-          <!--          <video class="w-full h-full object-contain sm:transform sm:scale-[120%]" src="@/assets/video/trust.webm" loop-->
-          <!--                 autoplay muted playsinline/>-->
+      <div class="flex justify-between items-center md:flex-col-reverse pt-24">
+        <div class="w-[40%] flex justify-center items-center md:pt-8
+            md:w-2/3 sm:w-full xs:w-full overflow-hidden">
+          <Vue3Lottie loop :animation-data="solidTrust" height="100%" width="100%"/>
+<!--                    <video class="w-full h-full object-contain sm:transform sm:scale-[120%]" src="@/assets/video/trust.webm" loop-->
+<!--                           autoplay muted playsinline/>-->
         </div>
-        <div class="w-[52%] pb-4 pt-24 pl-2 md:w-full md:px-0 md:pt-6">
-          <h2 id="solidtrust" class="text-[40px] text-color-gradient font-semibold pt-3 pr-8 mb-10 leading-[3.255rem]
-                    md:text-[30px] sm:text-[25px] xs:text-[20px] sm:leading-snug lg:px-8 md:px-0">
+        <div class="w-[52%] pl-2 md:w-full md:px-0 md:pt-6">
+          <h2 id="solidtrust" class="text-[36px] text-color-gradient font-semibold mb-10 md:text-[30px]
+                    sm:text-[25px] xs:text-[20px] xs:mb-4 sm:leading-snug">
             SolidTrust: Trust and Secure Blockchain</h2>
-          <div class="mb-14">
+          <div class="mb-12">
             <p class="text-white mb-8 leading-[31.5px] sm:leading-snug sm:text-sm">SolidTrust is a unique decentralized
               system that
               analyzes the actions
