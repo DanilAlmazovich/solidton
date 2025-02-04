@@ -1,16 +1,18 @@
 <script setup lang="ts">
 import Promo from "@/components/elements/Promo.vue";
-import Calc from "@/components/elements/Calc.vue";
 import SignUp from "@/components/home/SignUp.vue";
 import Info from "@/components/elements/Info.vue";
-import Content from "@/components/bridge/Content.vue";
+import Content from "@/components/solid-trust/Content.vue";
 
 const info = {
-  title: `Solidton Bridge: Connect Blockchains, Expand Possibilities`,
-  description: `Solidton Bridge is an innovative solution that enables seamless and secure asset transfers between different
-            blockchains. It breaks down barriers and ensures full compatibility, granting access to new ecosystems and
-            opportunities. With Solidton Bridge, you can transfer SON tokens or other digital assets between networks
-            like Ethereum, Binance Smart Chain, and SolidChain without any hassle.`
+  title: `What is SolidTrust?`,
+  description: `SolidTrust is the world’s first fully automated and decentralized trust system integrated into
+  the SolidChain blockchain. It is designed to address the key challenges of the crypto industry: lack of trust,
+  fraud risks, and insufficient transparency. <br>
+  The SolidTrust system automatically analyzes the activities of users, projects, and tokens within the network
+  and assigns them a SolidScore—a trust rating updated in real time. SolidTrust ensures safe, transparent, and
+  convenient interaction for all ecosystem participants.
+`
 }
 </script>
 
@@ -18,10 +20,10 @@ const info = {
   <div class="relative overflow-hidden pt-[80px]">
     <div class="absolute right-0 top-[-1300px] left-0 m-auto w-[1000px] h-[1000px] border-[3px] border-solid border-[#6299CD]
         z-[-5] rounded-full transform scale-[260%] blue-shadow lg:w-full"></div>
-    <Promo title="Bridge" second-title="Connecting Blockchains, Expanding Possibilities"/>
+    <Promo title="SolidTrust"
+           second-title="The Trust System for the SolidChain Blockchain"/>
     <Info :title="info.title"
           :description="info.description"/>
-<!--    <Calc/>-->
     <Content/>
     <SignUp/>
     <div class="flex w-full h-full absolute bg-black z-[-10] inset-0"/>
@@ -33,5 +35,3 @@ const info = {
   box-shadow: -1px 64px 70px -6px rgba(24, 96, 165, 0.3);
 }
 </style>
-
-

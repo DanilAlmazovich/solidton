@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import InfoCardList from "@/components/elements/InfoCardList.vue";
+
 const content = [
   {
     title: 'Full Control Over Your Assets',
@@ -50,26 +52,10 @@ const content = [
 <template>
   <section class="py-24 lg:py-16">
     <div class="container">
-      <div class="px-[105px] mb-20 lg:px-0">
-        <h2 class="text-[40px] font-semibold text-color-gradient leading-[3.255rem] text-center mb-14 lg:text-[30px]
-        lg:leading-[2.5rem] sm:text-[25px] lg:mb-8">
-          Features of
-          Solidton Bridge</h2>
-        <div
-            class="grid grid-cols-3 gap-x-16 gap-y-12 py-14 md:py-8 md:gap-x-6 md:gap-y-10 md:grid-cols-2 sm:grid-cols-1 sm:py-4">
-          <div v-for="item in content">
-            <h6 class="font-semibold text-[24px] text-white mb-4 lg:text-xl md:text-lg">{{ item.title }}</h6>
-            <ul class="pl-3 text-white list-disc">
-              <li class="text-base text-white md:text-sm" v-for="list in item.descriptions">
-                {{ list }}
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="px-[105px] pt-16 pb-12 lg:px-0 lg:pt-10 md:pt-8 lg:pb-10 sm:pb-4">
-        <h2 class="text-[40px] font-semibold text-color-gradient leading-[3.255rem] text-center mb-14 lg:text-[30px]
-        lg:leading-[2.5rem] sm:text-[25px] lg:mb-8">Solidton DEX:
+      <InfoCardList :content="content" title="What Makes Solidton DEX Unique?"/>
+      <div class="px-[105px] pt-16 pb-12 lg:px-0 lg:pt-10 md:pt-4 lg:pb-10 sm:pb-4">
+        <h2 v-scroll-reveal class="text-[36px] font-semibold text-color-gradient leading-[3.255rem] text-center mb-14 lg:text-[30px]
+        lg:leading-[2.5rem] sm:text-[20px] lg:mb-8">Solidton DEX:
           Your Path to Free Trading</h2>
         <div class="px-40 flex justify-center flex-col items-center lg:px-0">
           <p class="text-white text-center mb-6 sm:text-sm">Solidton DEX was created to provide everyone with access to

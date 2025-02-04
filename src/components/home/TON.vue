@@ -3,7 +3,7 @@ import {Button} from "primevue";
 </script>
 
 <template>
-  <section v-animateonscroll="{ enterClass: 'animate-fadein', leaveClass: 'animate-fadeout' }">
+  <section>
     <div class="container">
       <div class="flex justify-between items-center pt-24 md:flex-col-reverse">
         <div class="w-[45%] flex items-center justify-center
@@ -12,10 +12,10 @@ import {Button} from "primevue";
                            playsinline loop autoplay muted/>
         </div>
         <div class="w-[55%] md:w-full md:px-0 md:pb-0">
-          <h2 class="text-[36px] text-color-gradient font-semibold mb-10 md:text-[30px]
-                    sm:text-[25px] xs:text-[20px] xs:mb-4 sm:leading-snug">
-            Solidton: From TON to Independent
-            Powerhouse</h2>
+          <h2 v-scroll-reveal
+              class="text-[36px] text-color-gradient font-semibold mb-10 md:text-[30px]
+                    sm:text-[20px] xs:text-[20px] xs:mb-4 sm:leading-snug">
+            Solidton: From TON to Independent Powerhouse</h2>
           <p class="text-white mb-4 leading-[1.969rem] text-base sm:text-sm sm:leading-snug">Initially built on the TON
             blockchain,
             Solidton has broken free to become an

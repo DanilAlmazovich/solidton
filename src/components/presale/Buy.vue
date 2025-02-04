@@ -9,7 +9,7 @@ import {Vue3Lottie} from "vue3-lottie";
   <section>
     <div class="container">
       <div class="py-12 px-[105px] lg:px-0">
-        <h2 class="text-[40px] font-semibold text-color-gradient leading-[3.255rem] text-center mb-4 lg:text-[30px] lg:leading-[2.5rem] sm:text-[25px]">
+        <h2 v-scroll-reveal class="text-[36px] font-semibold text-color-gradient leading-[3.255rem] text-center mb-4 lg:text-[30px] lg:leading-[2.5rem] sm:text-[20px]">
           How to buy</h2>
         <div class="flex flex-col justify-center mb-10">
           <span class="text-[32px] text-white font-bold text-center pb-2 lg:text-xl md:text-lg sm:text-base">Buying SON with</span>
@@ -17,7 +17,7 @@ import {Vue3Lottie} from "vue3-lottie";
         </div>
         <div
             class="bg-[#020202] border border-solid border-[#323232] rounded-3xl py-10 px-20 mb-20 lg:px-10 md:px-6 sm:px-4 lg:mb-10">
-          <h4 class="font-bold text-[30px] text-white text-center mb-5 lg:text-xl md:text-lg sm:text-base">Step 1 -
+          <h4 v-scroll-reveal class="font-bold text-[30px] text-white text-center mb-5 lg:text-xl md:text-lg sm:text-base">Step 1 -
             Wallet Setup</h4>
           <p class="text-white/80 text-center mb-10 md:text-sm">Welcome aboard! Start by setting up a compatible wallet
             depending
@@ -52,7 +52,7 @@ import {Vue3Lottie} from "vue3-lottie";
           <div class="flex justify-center items-center mb-6">
             <img src="@/assets/images/presale/mytonwallet.png" alt="image">
           </div>
-          <h4 class="font-bold text-[30px] text-white text-center mb-5 lg:text-xl md:text-lg sm:text-base">Step 2 -
+          <h4 v-scroll-reveal class="font-bold text-[30px] text-white text-center mb-5 lg:text-xl md:text-lg sm:text-base">Step 2 -
             Purchase Process</h4>
           <p class="text-white leading-[32.4px] text-center px-16 mb-5 md:text-sm md:px-0">Ready to invest in Solidton?
             Select your
@@ -65,7 +65,7 @@ import {Vue3Lottie} from "vue3-lottie";
             <Vue3Lottie loop :animation-data="purchaseProcess" height="100%" width="100%"/>
 <!--            <video class="w-full h-full" src="@/assets/video/tics.webm" autoplay muted loop playsinline/>-->
           </div>
-          <h4 class="font-bold text-[30px] text-white text-center mb-5 lg:text-xl md:text-lg sm:text-base">Step 3 -
+          <h4 v-scroll-reveal class="font-bold text-[30px] text-white text-center mb-5 lg:text-xl md:text-lg sm:text-base">Step 3 -
             Token Reception</h4>
           <p class="text-white leading-[32.4px] text-center px-16 mb-5 md:text-sm md:px-0">Once the Solidton presale
             concludes, you will be

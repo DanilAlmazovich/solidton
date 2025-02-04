@@ -3,7 +3,7 @@ import {InputText, Button} from "primevue";
 </script>
 
 <template>
-  <section class="w-full" v-animateonscroll="{ enterClass: 'animate-fadein', leaveClass: 'animate-fadeout' }">
+  <section class="w-full">
     <div class="container">
       <div class="py-12">
         <div class="pt-2 pb-1 px-2 mb-12">

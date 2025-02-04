@@ -5,18 +5,21 @@ import {Vue3Lottie} from "vue3-lottie";
 </script>
 
 <template>
-  <section v-animateonscroll="{ enterClass: 'animate-fadein', leaveClass: 'animate-fadeout' }">
+  <section>
     <div class="container">
       <div class="flex justify-between pt-24 items-center md:flex-col">
         <div class="w-[55%]  md:w-full md:px-0 md:mb-2">
-          <h2 id="bridge" class="text-[36px] text-color-gradient font-semibold mb-10 md:text-[30px]
-                    sm:text-[25px] xs:text-[20px] xs:mb-4 sm:leading-snug">
+          <h2 id="bridge"
+              v-scroll-reveal
+              class="text-[36px] text-color-gradient font-semibold mb-10 md:text-[30px]
+                    sm:text-[20px] xs:text-[20px] xs:mb-4 sm:leading-snug">
             Solidton Bridge: Connect Blockchains, Expand Possibilities
           </h2>
           <div class="mb-12">
             <p class="text-white mb-6 sm:text-sm">Solidton Bridge allows easy asset transfers between blockchains,
-              enhancing interoperability.
-              Transfer SON tokens or other assets to networks like Ethereum or Binance Smart Chain effortlessly</p>
+              enhancing
+              interoperability. Transfer SON tokens or other assets to networks like Ethereum or Binance Smart Chain
+              effortlessly. </p>
             <span class="text-white sm:text-sm">With Solidton Bridge, you get:</span>
             <ul class="text-white pl-4 mb-6 sm:text-sm list-disc">
               <li>Fast and secure cross-chain transfers.</li>

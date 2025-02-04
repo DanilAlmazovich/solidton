@@ -4,12 +4,14 @@ import {Button} from "primevue";
 </script>
 
 <template>
-  <section v-animateonscroll="{ enterClass: 'animate-fadein', leaveClass: 'animate-fadeout' }">
+  <section>
     <div class="container">
       <div class="flex justify-between pt-24 items-center md:pt-0 md:flex-col">
         <div class="w-[55%] md:w-full">
-          <h2 id="defi" class="text-[36px] text-color-gradient font-semibold mb-10 md:text-[30px]
-                    sm:text-[25px] xs:text-[20px] xs:mb-4 sm:leading-snug">
+          <h2 id="defi"
+              v-scroll-reveal
+              class="text-[36px] text-color-gradient font-semibold mb-10 md:text-[30px]
+                    sm:text-[20px] xs:text-[20px] xs:mb-4 sm:leading-snug">
             Solidton: Your Gateway to Advanced DeFi Solutions</h2>
           <div class="mb-10 pt-1 pb-2">
             <p class="text-white mb-6 leading-[31.5px] sm:leading-snug sm:text-sm">Solidton introduces innovative

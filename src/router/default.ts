@@ -27,10 +27,30 @@ const routes = [
                 component: () => import('@/views/Dex.vue')
             },
             {
+                path: 'solid-ramp',
+                name: 'solid-ramp',
+                component: () => import('@/views/SolidRamp.vue')
+            },
+            {
+                path: 'solid-scan',
+                name: 'solid-scan',
+                component: () => import('@/views/SolidScan.vue')
+            },
+            {
+                path: 'solid-trust',
+                name: 'solid-trust',
+                component: () => import('@/views/SolidTrust.vue')
+            },
+            {
+                path: 'solidton-wallet',
+                name: 'solidton-wallet',
+                component: () => import('@/views/SolidtonWallet.vue')
+            },
+            {
                 path: 'example',
                 name: 'example',
                 component: () => import('@/views/Example.vue')
-            }
+            },
         ]
     }
 ]

@@ -1,9 +1,16 @@
 <script setup lang="ts">
 import {Button, Drawer} from "primevue";
-import {ref} from "vue";
+import {ref, watch} from "vue";
 import HeaderLinks from "@/components/layout/HeaderLinks.vue";
+import {useRoute} from "vue-router";
+
+const route = useRoute()
 
 const menuVisible = ref<boolean>(false)
+
+watch(() => route.path, () => {
+  menuVisible.value = false
+})
 </script>
 
 <template>

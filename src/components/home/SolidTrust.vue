@@ -5,18 +5,20 @@ import {Vue3Lottie} from "vue3-lottie";
 </script>
 
 <template>
-  <section v-animateonscroll="{ enterClass: 'animate-fadein', leaveClass: 'animate-fadeout' }">
+  <section>
     <div class="container">
       <div class="flex justify-between items-center md:flex-col-reverse pt-24">
         <div class="w-[40%] flex justify-center items-center md:pt-8
             md:w-2/3 sm:w-full xs:w-full overflow-hidden">
           <Vue3Lottie loop :animation-data="solidTrust" height="100%" width="100%"/>
-<!--                    <video class="w-full h-full object-contain sm:transform sm:scale-[120%]" src="@/assets/video/trust.webm" loop-->
-<!--                           autoplay muted playsinline/>-->
+          <!--                    <video class="w-full h-full object-contain sm:transform sm:scale-[120%]" src="@/assets/video/trust.webm" loop-->
+          <!--                           autoplay muted playsinline/>-->
         </div>
         <div class="w-[52%] pl-2 md:w-full md:px-0 md:pt-6">
-          <h2 id="solidtrust" class="text-[36px] text-color-gradient font-semibold mb-10 md:text-[30px]
-                    sm:text-[25px] xs:text-[20px] xs:mb-4 sm:leading-snug">
+          <h2 id="solidtrust"
+              v-scroll-reveal
+              class="text-[36px] text-color-gradient font-semibold mb-10 md:text-[30px]
+                    sm:text-[20px] xs:text-[20px] xs:mb-4 sm:leading-snug">
             SolidTrust: Trust and Secure Blockchain</h2>
           <div class="mb-12">
             <p class="text-white mb-8 leading-[31.5px] sm:leading-snug sm:text-sm">SolidTrust is a unique decentralized

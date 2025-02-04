@@ -11,7 +11,11 @@ import data9 from "@/animation-example/9.json";
 import data10 from "@/animation-example/10.json";
 import data11 from "@/animation-example/11.json";
 import data12 from "@/animation-example/12.json";
-import data13 from "@/animation-example/11 (2).json";
+import data13 from "@/animation-example/13.json";
+import data14 from "@/animation-example/14.json";
+import data15 from "@/animation-example/15.json";
+import data16 from "@/animation-example/16.json";
+
 </script>
 
 <template>
@@ -74,6 +78,22 @@ import data13 from "@/animation-example/11 (2).json";
 <!--      <div>-->
 <!--        <Vue3Lottie :animation-data="data16" />-->
 <!--      </div>-->
+            <div>
+              <Vue3Lottie :animation-data="data13" />
+              13
+            </div>
+            <div>
+              <Vue3Lottie :animation-data="data14" />
+              14
+            </div>
+            <div>
+              <Vue3Lottie :animation-data="data15" />
+              15
+            </div>
+            <div>
+              <Vue3Lottie :animation-data="data16" />
+              16
+            </div>
     </div>
   </div>
 </template>

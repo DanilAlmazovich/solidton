@@ -16,7 +16,7 @@ const sliderValue = ref(50)
   <section class="mb-10">
     <div class="container">
       <div class="px-[105px] lg:px-0">
-        <h2 class="font-extrabold text-[32px] text-white mb-1 md:text-[25px] sm:mb-4">Select a network</h2>
+        <h2 v-scroll-reveal class="font-extrabold text-[32px] text-white mb-1 md:text-[25px] sm:mb-4">Select a network</h2>
         <div class="flex gap-4 justify-between items-center mb-5 sm:flex-col-reverse sm:items-start">
           <div class="flex gap-4 md:gap-2">
             <Button @click.prevent="select('ton')"
@@ -58,10 +58,10 @@ const sliderValue = ref(50)
               <div class="flex items-center gap-3">
                 <span class="w-[32px] h-[32px] md:w-[20px] md:h-[20px]">
                   <img class="w-full h-full object-contain"
-                       src="@/assets/images/presale/circle-color-pie.png"
+                       src="@/assets/images/presale/son.png"
                        alt="image">
                 </span>
-                <span class="text-xl font-bold md:text-base">1 TICS</span>
+                <span class="text-xl font-bold md:text-base">1 SON</span>
               </div>
               <span class="text-xl font-bold md:text-base">=</span>
               <div class="flex items-center gap-2">
@@ -81,10 +81,10 @@ const sliderValue = ref(50)
             <Slider class="slider-custom" v-model="sliderValue"/>
             <div class="flex justify-center pt-4">
               <div class="bg-[#202020] flex items-center rounded-xl pt-6 px-8 pb-8 gap-2 md:pb-6">
-                <span class="w-[24px] h-[24px] md:w-[20px] md:h-[20px]">
-                  <img src="@/assets/images/presale/circle-color-pie.png" alt="image">
-                </span>
-                <span class="font-bold text-white text-sm">359,820,235 TICS</span>
+<!--                <span class="w-[24px] h-[24px] md:w-[20px] md:h-[20px]">-->
+<!--                  <img src="@/assets/images/presale/son.png" alt="image">-->
+<!--                </span>-->
+                <span class="font-bold text-white text-sm">359,820,235 SON</span>
               </div>
             </div>
           </div>
@@ -171,9 +171,9 @@ const sliderValue = ref(50)
                 <InputText
                     class="rounded-full border-none outline-none shadow-none py-3 px-6 bg-transparent w-[75%] sm:w-full md:text-sm md:py-2"/>
                 <div class="flex items-center justify-end w-[25%] md:w-auto pr-4 gap-2 ">
-                  <span class="font-bold text-white md:text-sm">TICS</span>
+                  <span class="font-bold text-white md:text-sm">SON</span>
                   <span class="w-[32px] h-[32px] md:w-[20px] md:h-[20px] flex">
-                    <img src="@/assets/images/presale/circle-color-pie.png" class="object-contain w-full h-full"
+                    <img src="@/assets/images/presale/son.png" class="object-contain w-full h-full"
                          alt="image">
                   </span>
                 </div>
@@ -182,7 +182,7 @@ const sliderValue = ref(50)
           </div>
           <div class="flex justify-center py-8">
             <Button label="Connect Wallet"
-                    class="bg-gray-700 button-dark-shadow rounded-full px-24 text-white md:text-sm md:px-10"
+                    class="bg-gray-700 button-dark-shadow rounded-full px-24 text-white md:text-sm md:px-10 connect-wallet-btn"
                     size="large"/>
           </div>
           <div class="flex justify-center pt-4">
@@ -218,12 +218,17 @@ const sliderValue = ref(50)
 }
 
 .slider-custom.p-slider .p-slider-handle:before {
-  background: url("@/assets/images/presale/slider-button.png");
+  background: url("@/assets/images/presale/son.png") center no-repeat;
+  -webkit-background-size: 40px 40px;
+  background-size: 40px 40px;
   width: 100%;
   height: 100%;
 }
 
 .button-dark-shadow {
   box-shadow: 0px 4px 4px 0px #00000040;
+}
+.connect-wallet-btn {
+  background: linear-gradient(90deg, #0033FF 0%, #44D0EF 100%);
 }
 </style>

@@ -124,12 +124,13 @@ const sliderContent = ref([
 </script>
 
 <template>
-  <section class="w-full"
-           v-animateonscroll="{ enterClass: 'animate-fadein', leaveClass: 'animate-fadeout' }">
+  <section class="w-full">
     <div class="container">
       <div class="pt-24">
-        <h2 id="roadmap" class="text-[40px] text-color-gradient font-semibold mb-10 md:text-[30px]
-                    sm:text-[25px] xs:text-[20px] xs:mb-4 sm:leading-snug text-center">Roadmap</h2>
+        <h2 id="roadmap"
+            v-scroll-reveal
+            class="text-[36px] text-color-gradient font-semibold mb-10 md:text-[30px]
+                    sm:text-[20px] xs:text-[20px] xs:mb-4 sm:leading-snug text-center">Roadmap</h2>
       </div>
     </div>
     <div class="pt-2 pb-16 mb-16 md:mb-4 md:pb-10">

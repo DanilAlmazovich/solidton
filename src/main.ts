@@ -11,6 +11,7 @@ import ToastService from 'primevue/toastservice'
 import Tooltip from 'primevue/tooltip'
 import ConfirmationService from 'primevue/confirmationservice'
 import AnimateOnScroll from 'primevue/animateonscroll';
+import scrollReveal from '@/directives/scrollReveal.js.ts';
 
 
 const app = createApp(App)
@@ -22,7 +23,7 @@ app.use(PrimeVue, primeVueOptions)
     .directive('animateonscroll', AnimateOnScroll);
 
 
-
+app.directive('scroll-reveal', scrollReveal);
 app.use(createPinia())
 app.use(router)
 

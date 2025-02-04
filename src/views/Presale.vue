@@ -9,7 +9,7 @@ import SignUp from "@/components/home/SignUp.vue";
   <div class="relative overflow-hidden pt-[80px]">
     <div class="absolute right-0 top-[-1300px] left-0 m-auto w-[1000px] h-[1000px] border-[3px] border-solid border-[#6299CD]
         z-[-5] rounded-full transform scale-[260%] blue-shadow lg:w-full"/>
-    <Promo title="Presale 13"/>
+    <Promo title="Presale 13" second-title="Next phase begins in"/>
     <Calc/>
     <Buy/>
     <SignUp/>
