@@ -48,7 +48,7 @@ import promoAnimation from '@/assets/animations/promo.json'
             class="absolute left-0 right-0 m-auto top-0 h-full z-[-1] flex items-center justify-center py-[19rem] md:py-[10rem] rounded">
           <div class="w-full h-[100%] transform scale-x-[180%] bg-black rounded-full"/>
         </div>
-        <div class="absolute left-0 right-0 bottom-[-15rem] w-full h-auto z-[-2] md:bottom-[-5rem] sm:bottom-0">
+        <div class="absolute left-0 right-0 bottom-[-10rem] w-full h-auto z-[-2] md:bottom-[-5rem] sm:bottom-0">
           <img class="w-full h-auto transform rotate-180" src="@/assets/images/gradient-blue-top.png" alt="image">
         </div>
       </div>
