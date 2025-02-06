@@ -3,6 +3,7 @@ import Content from "@/components/solid-scan/Content.vue";
 import SignUp from "@/components/home/SignUp.vue";
 import Info from "@/components/elements/Info.vue";
 import Promo from "@/components/elements/Promo.vue";
+import SolidScan from "@/assets/animations/solid-scan.json";
 
 const info = {
   title: `SolidScan is a powerful tool for tracking transactions`,
@@ -17,6 +18,7 @@ const info = {
         z-[-5] rounded-full transform scale-[260%] blue-shadow lg:w-full"></div>
     <Promo title="SolidScan" second-title="Transparency at Your Fingertips"/>
     <Info :title="info.title"
+          :logo="SolidScan"
           :description="info.description"/>
     <Content/>
     <SignUp/>

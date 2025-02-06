@@ -15,7 +15,7 @@ const props = defineProps({
   <section>
     <div class="container">
       <div class="flex justify-center">
-        <div class="flex flex-col items-center py-28 mb-20">
+        <div class="flex flex-col items-center py-28 mb-10">
           <h1 v-scroll-reveal class="text-[64px] font-extrabold text-color-gradient text-center leading-none mb-4
           lg:text-[45px] lg:leading-[2.5rem] sm:text-[30px]">
             {{ props.title }}</h1>

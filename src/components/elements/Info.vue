@@ -10,12 +10,16 @@ const props = defineProps({
   description: {
     type: String,
     default: ''
+  },
+  logo: {
+    type: Object,
+    default: () => null
   }
 })
 </script>
 
 <template>
-  <section class="mb-24 md:mb-4">
+  <section class="mb-10 md:mb-4">
     <div class="container">
       <div class="flex items-center lg:px-0 md:flex-col">
         <div class="w-[55%] md:w-full md:px-0 pr-4">
@@ -27,7 +31,7 @@ const props = defineProps({
           <p class="text-white py-1 sm:text-sm" v-html="description"></p>
         </div>
         <div class="w-[45%] md:w-full md:px-0 pl-6">
-          <Vue3Lottie loop :animation-data="coin" height="100%" width="100%"/>
+          <Vue3Lottie v-if="logo" loop :animation-data="logo" height="100%" width="100%"/>
         </div>
       </div>
     </div>

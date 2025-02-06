@@ -1,9 +1,9 @@
 <script setup lang="ts">
 import Promo from "@/components/elements/Promo.vue";
-import Calc from "@/components/elements/Calc.vue";
 import SignUp from "@/components/home/SignUp.vue";
 import Info from "@/components/elements/Info.vue";
 import Content from "@/components/bridge/Content.vue";
+import Bridge from "@/assets/animations/bridge-page.json"
 
 const info = {
   title: `Solidton Bridge: Connect Blockchains, Expand Possibilities`,
@@ -20,6 +20,7 @@ const info = {
         z-[-5] rounded-full transform scale-[260%] blue-shadow lg:w-full"></div>
     <Promo title="Bridge" second-title="Connecting Blockchains, Expanding Possibilities"/>
     <Info :title="info.title"
+          :logo="Bridge"
           :description="info.description"/>
 <!--    <Calc/>-->
     <Content/>

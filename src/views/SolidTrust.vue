@@ -3,6 +3,7 @@ import Promo from "@/components/elements/Promo.vue";
 import SignUp from "@/components/home/SignUp.vue";
 import Info from "@/components/elements/Info.vue";
 import Content from "@/components/solid-trust/Content.vue";
+import solidTrust from "@/assets/animations/solid-trust.json"
 
 const info = {
   title: `What is SolidTrust?`,
@@ -23,6 +24,7 @@ const info = {
     <Promo title="SolidTrust"
            second-title="The Trust System for the SolidChain Blockchain"/>
     <Info :title="info.title"
+          :logo="solidTrust"
           :description="info.description"/>
     <Content/>
     <SignUp/>

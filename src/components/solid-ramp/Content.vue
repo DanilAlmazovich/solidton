@@ -34,7 +34,7 @@ const content = [
 </script>
 
 <template>
-  <section class="py-24 lg:py-16">
+  <section class="py-14 lg:py-10">
     <div class="container">
       <InfoCardList :content="content" title="What Does SolidRamp Offer?"/>
       <div class="px-[105px] pt-16 pb-12 lg:px-0 lg:pt-10 md:pt-4 lg:pb-10 sm:pb-4">

@@ -3,6 +3,7 @@ import Content from "@/components/solid-ramp/Content.vue";
 import SignUp from "@/components/home/SignUp.vue";
 import Info from "@/components/elements/Info.vue";
 import Promo from "@/components/elements/Promo.vue";
+import Coin from "@/assets/animations/coin.json";
 
 const info = {
   title: `SolidRamp is an innovative platform `,
@@ -19,6 +20,7 @@ const info = {
         z-[-5] rounded-full transform scale-[260%] blue-shadow lg:w-full"></div>
     <Promo title="SolidRamp" second-title="Launch Your Tokens with Confidence"/>
     <Info :title="info.title"
+          :logo="Coin"
           :description="info.description"/>
     <Content/>
     <SignUp/>

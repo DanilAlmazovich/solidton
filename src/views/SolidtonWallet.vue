@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import Promo from "@/components/elements/Promo.vue";
-import Calc from "@/components/elements/Calc.vue";
 import SignUp from "@/components/home/SignUp.vue";
 import Info from "@/components/elements/Info.vue";
 import Content from "@/components/solidton-wallet/Content.vue";
@@ -21,7 +20,7 @@ const info = {
            second-title="How SOLIDTON WALLET Will Operate on the SolidChain Blockchain"/>
     <Info :title="info.title"
           :description="info.description"/>
-    <Calc/>
+<!--    <Calc/>-->
     <Content/>
     <SignUp/>
     <div class="flex w-full h-full absolute bg-black z-[-10] inset-0"/>

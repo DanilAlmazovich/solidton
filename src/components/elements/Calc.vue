@@ -199,7 +199,7 @@ const sliderValue = ref(50)
 
 <style lang="css">
 .slider-custom.p-slider {
-  background: rgba(148, 133, 253, 0.3);
+  background: #66B5FF54;
   height: 20px;
   border-radius: 100px;
   border: 5px solid transparent;
@@ -208,7 +208,7 @@ const sliderValue = ref(50)
 .slider-custom.p-slider .p-slider-range {
   height: 10px;
   border-radius: 100px;
-  background: linear-gradient(90deg, #85FAEB 0%, #BB68F7 100%);
+  background: linear-gradient(90deg, #85FAEB 0%, #44D0EF 100%);
 }
 
 .slider-custom.p-slider .p-slider-handle {

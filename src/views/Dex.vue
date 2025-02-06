@@ -1,9 +1,9 @@
 <script setup lang="ts">
 import Promo from "@/components/elements/Promo.vue";
-import Calc from "@/components/elements/Calc.vue";
 import SignUp from "@/components/home/SignUp.vue";
 import Info from "@/components/elements/Info.vue";
 import Content from "@/components/dex/Content.vue";
+import Dex from "@/assets/animations/dex-page.json"
 
 const info = {
   title: `Solidton DEX: Trade Freely Without Limits`,
@@ -19,6 +19,7 @@ const info = {
         z-[-5] rounded-full transform scale-[260%] blue-shadow lg:w-full"></div>
     <Promo title="Solidton DEX" second-title="The feature will be launched in"/>
     <Info :title="info.title"
+          :logo="Dex"
           :description="info.description"/>
 <!--    <Calc/>-->
     <Content/>
