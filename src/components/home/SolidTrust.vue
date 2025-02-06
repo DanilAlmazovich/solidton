@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import {Button} from "primevue";
-import solidTrust from "@/assets/animations/solidtrustmain.json";
+import solidTrust from "@/assets/animations/solid-trust-u.json";
 import {Vue3Lottie} from "vue3-lottie";
 </script>
 
