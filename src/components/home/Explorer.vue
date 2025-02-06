@@ -25,7 +25,7 @@ import {Vue3Lottie} from "vue3-lottie";
         </div>
       </div>
       <div class="w-full rounded flex items-center justify-center md:px-0 overflow-hidden">
-        <div class="w-[25%] md:w-2/3 sm:w-full xs:w-full">
+        <div class="w-[25%] md:w-full sm:w-full xs:w-full">
           <Vue3Lottie loop :animation-data="explorer" height="100%" width="100%"/>
         </div>
       </div>

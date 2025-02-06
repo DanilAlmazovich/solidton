@@ -1,15 +1,15 @@
 <script setup lang="ts">
 import {Button} from "primevue";
-import solidTrust from "@/assets/animations/solid-trust.json";
+import solidTrust from "@/assets/animations/solidtrustmain.json";
 import {Vue3Lottie} from "vue3-lottie";
 </script>
 
 <template>
   <section>
     <div class="container">
-      <div class="flex justify-between items-center md:flex-col-reverse pt-24">
+      <div class="flex justify-between items-center md:flex-col-reverse pt-24 md:pt-16">
         <div class="w-[40%] flex justify-center items-center md:pt-8
-            md:w-2/3 sm:w-full xs:w-full overflow-hidden">
+            md:w-full sm:w-full xs:w-full overflow-hidden">
           <Vue3Lottie loop :animation-data="solidTrust" height="100%" width="100%"/>
           <!--                    <video class="w-full h-full object-contain sm:transform sm:scale-[120%]" src="@/assets/video/trust.webm" loop-->
           <!--                           autoplay muted playsinline/>-->

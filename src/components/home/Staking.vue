@@ -22,7 +22,7 @@ import {Vue3Lottie} from "vue3-lottie";
           <Button class="button-base"
                   severity="contrast" rounded label="Buy now"/>
         </div>
-        <div class="w-[43%] flex flex-col items-center md:w-2/3 sm:w-full">
+        <div class="w-[43%] flex flex-col items-center md:w-full sm:w-full">
           <div class="flex items-center justify-center mb-4">
             <Vue3Lottie loop :animation-data="stakingTime" height="100%" width="100%"/>
           </div>

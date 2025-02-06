@@ -9,7 +9,7 @@ import {Vue3Lottie} from "vue3-lottie";
     <div class="container">
       <div class="flex pt-24 justify-between items-center md:flex-col-reverse">
         <div class="w-[40%] flex justify-center items-center overflow-hidden pr-20 md:pr-0
-          md:w-3/4 sm:w-full md:pt-10 xs:w-full">
+          md:w-full sm:w-full md:pt-10 xs:w-full">
           <Vue3Lottie loop :animation-data="dex" height="100%" width="100%"/>
         </div>
         <div class="w-[56%] md:w-full">

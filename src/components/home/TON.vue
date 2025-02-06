@@ -7,8 +7,8 @@ import {Button} from "primevue";
     <div class="container">
       <div class="flex justify-between items-center pt-24 md:flex-col-reverse">
         <div class="w-[45%] flex items-center justify-center
-            md:w-2/3 sm:w-full xs:w-full overflow-hidden pr-8 md:pr-0">
-                    <video class="w-full h-full object-contain" src="@/assets/video/ton.webm"
+            sm:w-full md:w-full overflow-hidden pr-8 md:pr-0 py-10">
+                    <video class="w-full h-auto object-contain" src="@/assets/video/ton-main.webm"
                            playsinline loop autoplay muted/>
         </div>
         <div class="w-[55%] md:w-full md:px-0 md:pb-0">

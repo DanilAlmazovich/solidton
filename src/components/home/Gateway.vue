@@ -1,6 +1,9 @@
 <script setup lang="ts">
 import Icon from "@/components/Icon.vue";
 import {Button} from "primevue";
+import gateway from "@/assets/animations/geteway.json";
+import {Vue3Lottie} from "vue3-lottie";
+import explorer from "@/assets/animations/explorer.json";
 </script>
 
 <template>
@@ -33,10 +36,8 @@ import {Button} from "primevue";
           </div>
           <Button class="button-base" severity="contrast" rounded label="Learn more"/>
         </div>
-        <div class="w-[44%] flex flex-col items-center pl-20 md:px-0 md:w-2/3 sm:w-full xs:w-full md:pt-10">
-          <div class="flex items-center justify-center w-full">
-            <Icon class="w-full h-full inline-flex" name="gateway"/>
-          </div>
+        <div class="w-[44%] flex flex-col items-center pl-10 md:px-0 md:w-full xs:w-full md:pt-10">
+          <Vue3Lottie loop :animation-data="gateway" height="100%" width="100%"/>
         </div>
       </div>
     </div>
