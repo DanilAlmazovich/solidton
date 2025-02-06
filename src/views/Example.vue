@@ -36,14 +36,14 @@ import data16 from "@/animation-example/16.json";
 <!--        3-->
 <!--        <Vue3Lottie loop :animation-data="data3" height="100%" width="100%"/>-->
 <!--      </div>-->
-      <div>
-        4
-        <Vue3Lottie loop :animation-data="data4" height="100%" width="100%"/>
-      </div>
-      <div>
-        5
-        <Vue3Lottie loop :animation-data="data5" height="100%" width="100%"/>
-      </div>
+<!--      <div>-->
+<!--        4-->
+<!--        <Vue3Lottie loop :animation-data="data4" height="100%" width="100%"/>-->
+<!--      </div>-->
+<!--      <div>-->
+<!--        5-->
+<!--        <Vue3Lottie loop :animation-data="data5" height="100%" width="100%"/>-->
+<!--      </div>-->
 <!--      <div>-->
 <!--        6-->
 <!--        <Vue3Lottie loop :animation-data="data6" height="100%" width="100%"/>-->
