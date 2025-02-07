@@ -19,11 +19,16 @@ import {Vue3Lottie} from 'vue3-lottie'
 // import data18 from "@/animation-example/18.json";
 import test1 from "@/animation-example/2q.json"
 import test2 from "@/animation-example/11q.json"
+import promo from "@/animation-example/promo.json"
 </script>
 
 <template>
   <div class="container">
     <div class="grid grid-cols-2 gap-8">
+      <div>
+        1
+        <Vue3Lottie loop :animation-data="promo" height="100%" width="100%"/>
+      </div>
       <div>
         1
         <Vue3Lottie loop :animation-data="test1" height="100%" width="100%"/>

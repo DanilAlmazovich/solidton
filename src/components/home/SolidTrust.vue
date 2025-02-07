@@ -8,11 +8,9 @@ import {Vue3Lottie} from "vue3-lottie";
   <section>
     <div class="container">
       <div class="flex justify-between items-center md:flex-col-reverse pt-24 md:pt-16">
-        <div class="w-[40%] flex justify-center items-center md:pt-8
-            md:w-full sm:w-full xs:w-full overflow-hidden">
+        <div class="w-[40%] flex justify-center items-center md:pt-16
+            md:w-full sm:w-full xs:w-full overflow-hidden px-20 lg:px-0 md:px-10 sm:px-10 xs:px-0">
           <Vue3Lottie loop :animation-data="solidTrust" height="100%" width="100%"/>
-          <!--                    <video class="w-full h-full object-contain sm:transform sm:scale-[120%]" src="@/assets/video/trust.webm" loop-->
-          <!--                           autoplay muted playsinline/>-->
         </div>
         <div class="w-[52%] pl-2 md:w-full md:px-0 md:pt-6">
           <h2 id="solidtrust"
