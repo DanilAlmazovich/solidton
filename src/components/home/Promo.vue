@@ -38,6 +38,12 @@ import promo from '@/assets/animations/promo.json'
                   rounded
                   size="large"
                   class="px-14 py-5 lg:px-8 lg:py-3 lg:text-base sm:text-sm sm:py-2"/>
+          <a href="https://coinsult.net/projects/solidton/" target="_blank" class="flex h-[64px]">
+            <img class="w-auto h-full" src="@/assets/images/promo-button-logo.webp" alt="img">
+          </a>
+          <a href="#" target="_blank" class="flex w-[64px]">
+            <img class="w-auto h-full" src="@/assets/images/promo-button-logo-second.webp" alt="img">
+          </a>
         </div>
         <p class="text-[10px] text-gray-300 pr-32 leading-snug mb-3 sm:pr-0">
           Access to 64% of the total SON supply is available now during our live crypto presale.

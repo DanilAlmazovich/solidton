@@ -1,9 +1,7 @@
 <script setup lang="ts">
-import Icon from "@/components/Icon.vue";
 import {Button} from "primevue";
 import gateway from "@/assets/animations/geteway.json";
 import {Vue3Lottie} from "vue3-lottie";
-import explorer from "@/assets/animations/explorer.json";
 </script>
 
 <template>

@@ -14,6 +14,10 @@ const props = defineProps({
   logo: {
     type: Object,
     default: () => null
+  },
+  video: {
+    type: Boolean,
+    default: false
   }
 })
 </script>
@@ -30,8 +34,11 @@ const props = defineProps({
           </h2>
           <p class="text-white py-1 sm:text-sm" v-html="description"></p>
         </div>
-        <div class="w-[45%] md:w-full md:px-0 pl-6">
+        <div class="w-[45%] md:w-full md:px-0 pl-6" v-if="logo">
           <Vue3Lottie v-if="logo" loop :animation-data="logo" height="100%" width="100%"/>
+        </div>
+        <div class="w-[45%] md:w-full md:px-0 pl-6" v-if="video">
+          <slot/>
         </div>
       </div>
     </div>

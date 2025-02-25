@@ -26,10 +26,6 @@ import {Vue3Lottie} from "vue3-lottie";
           <div class="flex items-center justify-center mb-4">
             <Vue3Lottie loop :animation-data="stakingTime" height="100%" width="100%"/>
           </div>
-          <div class="flex justify-center w-1/2 pl-5 md:w-full">
-            <span class="text-white text-xs font-medium leading-snug">
-              Try Me Experience a preview of our upcoming app's features!</span>
-          </div>
         </div>
       </div>
     </div>

@@ -1,123 +1,73 @@
 <script setup lang="ts">
 import {Vue3Lottie} from 'vue3-lottie'
-// import data1 from "@/animation-example/1.json";
-// import data2 from "@/animation-example/2.json";
-// import data3 from "@/animation-example/3.json";
-// import data4 from "@/animation-example/4.json";
-// import data5 from "@/animation-example/5.json";
-// import data6 from "@/animation-example/6.json";
-// import data7 from "@/animation-example/7.json";
-// import data9 from "@/animation-example/9.json";
-// import data10 from "@/animation-example/10.json";
-// import data11 from "@/animation-example/11.json";
-// import data12 from "@/animation-example/12.json";
-// import data13 from "@/animation-example/13.json";
-// import data14 from "@/animation-example/14.json";
-// import data15 from "@/animation-example/15.json";
-// import data16 from "@/animation-example/16.json";
-// import data17 from "@/animation-example/17.json";
-// import data18 from "@/animation-example/18.json";
-import test1 from "@/animation-example/2q.json"
-import test2 from "@/animation-example/11q.json"
-import promo from "@/animation-example/promo.json"
+
+import data1 from '@/animation-example/bridge.json'
+import data2 from '@/animation-example/solid-trust-u.json'
+import data4 from '@/animation-example/token-reception.json'
+import data5 from '@/animation-example/purchase-process.json'
+import data6 from '@/animation-example/staking-time.json'
+import data7 from '@/animation-example/wallet-phone.json'
+import data11 from '@/animation-example/11.json'
+import data14 from '@/animation-example/bridge-page.json'
+import data17 from '@/animation-example/17.json'
+import data18 from '@/animation-example/geteway.json'
+import data19 from '@/animation-example/19.json'
+import data19s from '@/animation-example/19 (2).json'
 </script>
 
 <template>
   <div class="container">
-    <div class="grid grid-cols-2 gap-8">
-      <div>
-        1
-        <Vue3Lottie loop :animation-data="promo" height="100%" width="100%"/>
+    <div class="grid grid-cols-2 gap-4">
+      <div class="flex flex-col items-center">
+        <Vue3Lottie loop :animation-data="data1" height="100%" width="100%"/>
+        <span class="text-xl">1</span>
       </div>
-      <div>
-        1
-        <Vue3Lottie loop :animation-data="test1" height="100%" width="100%"/>
+      <div class="flex flex-col items-center">
+        <Vue3Lottie loop :animation-data="data2" height="100%" width="100%"/>
+        <span class="text-xl">2</span>
       </div>
-      <div>
-        1
-        <Vue3Lottie loop :animation-data="test2" height="100%" width="100%"/>
+      <div class="flex flex-col items-center">
+        <Vue3Lottie loop :animation-data="data4" height="100%" width="100%"/>
+        <span class="text-xl">4</span>
       </div>
-      <!--      <div>-->
-      <!--        1-->
-      <!--        <Vue3Lottie loop :animation-data="data1" height="100%" width="100%"/>-->
-      <!--      </div>-->
-      <!--      <div>-->
-      <!--        2-->
-      <!--        <Vue3Lottie loop :animation-data="data2" height="100%" width="100%"/>-->
-      <!--      </div>-->
-      <!--      <div>-->
-      <!--        <Vue3Lottie loop :animation-data="data2" height="100%" width="100%"/>-->
-      <!--      </div>-->
-      <!--      <div>-->
-      <!--        3-->
-      <!--        <Vue3Lottie loop :animation-data="data3" height="100%" width="100%"/>-->
-      <!--      </div>-->
-      <!--      <div>-->
-      <!--        4-->
-      <!--        <Vue3Lottie loop :animation-data="data4" height="100%" width="100%"/>-->
-      <!--      </div>-->
-      <!--      <div>-->
-      <!--        5-->
-      <!--        <Vue3Lottie loop :animation-data="data5" height="100%" width="100%"/>-->
-      <!--      </div>-->
-      <!--      <div>-->
-      <!--        6-->
-      <!--        <Vue3Lottie loop :animation-data="data6" height="100%" width="100%"/>-->
-      <!--      </div>-->
-      <!--      <div>-->
-      <!--        7-->
-      <!--        <Vue3Lottie loop :animation-data="data7" height="100%" width="100%"/>-->
-      <!--      </div>-->
-      <!--      <div>-->
-      <!--        11-->
-      <!--        <Vue3Lottie loop :animation-data="data11" height="100%" width="100%"/>-->
-      <!--      </div>-->
-      <!--      <div>-->
-      <!--        9-->
-      <!--        <Vue3Lottie loop :animation-data="data9" height="100%" width="100%"/>-->
-      <!--      </div>-->
-      <!--      <div>-->
-      <!--        10-->
-      <!--        <Vue3Lottie loop :animation-data="data10" height="100%" width="100%"/>-->
-      <!--      </div>-->
-      <!--      <div>-->
-      <!--        12-->
-      <!--        <Vue3Lottie loop :animation-data="data12" height="100%" width="100%"/>-->
-      <!--      </div>-->
-      <!--      <div>-->
-      <!--        13-->
-      <!--        <Vue3Lottie loop :animation-data="data13" height="100%" width="100%"/>-->
-      <!--      </div>-->
-      <!--      <div>-->
-      <!--        <Vue3Lottie loop :animation-data="data15" height="100%" width="100%"/>-->
-      <!--      </div>-->
-      <!--      <div>-->
-      <!--        <Vue3Lottie :animation-data="data16" />-->
-      <!--      </div>-->
-      <!--      <div>-->
-      <!--        <Vue3Lottie :animation-data="data13"/>-->
-      <!--        13-->
-      <!--      </div>-->
-      <!--      <div>-->
-      <!--        <Vue3Lottie :animation-data="data14"/>-->
-      <!--        14-->
-      <!--      </div>-->
-      <!--      <div>-->
-      <!--        <Vue3Lottie :animation-data="data15"/>-->
-      <!--        15-->
-      <!--      </div>-->
-      <!--      <div>-->
-      <!--        <Vue3Lottie :animation-data="data16"/>-->
-      <!--        16-->
-      <!--      </div>-->
-      <!--      <div>-->
-      <!--        <Vue3Lottie :animation-data="data17"/>-->
-      <!--        15-->
-      <!--      </div>-->
-      <!--      <div>-->
-      <!--        <Vue3Lottie :animation-data="data18"/>-->
-      <!--        16-->
-      <!--      </div>-->
+      <div class="flex flex-col items-center">
+        <Vue3Lottie loop :animation-data="data5" height="100%" width="100%"/>
+        <span class="text-xl">5</span>
+      </div>
+      <div class="flex flex-col items-center">
+        <Vue3Lottie loop :animation-data="data6" height="100%" width="100%"/>
+        <span class="text-xl">6</span>
+      </div>
+      <div class="flex flex-col items-center">
+        <Vue3Lottie loop :animation-data="data7" height="100%" width="100%"/>
+        <span class="text-xl">7</span>
+      </div>
+      <div class="flex flex-col items-center">
+        <Vue3Lottie loop :animation-data="data11" height="100%" width="100%"/>
+        <span class="text-xl">11</span>
+      </div>
+      <div class="flex flex-col items-center">
+        <Vue3Lottie loop :animation-data="data14" height="100%" width="100%"/>
+        <span class="text-xl">14</span>
+      </div>
+      <div class="flex flex-col items-center">
+        <Vue3Lottie loop :animation-data="data17" height="100%" width="100%"/>
+        <span class="text-xl">17</span>
+      </div>
+      <div class="flex flex-col items-center">
+        <Vue3Lottie loop :animation-data="data18" height="100%" width="100%"/>
+        <span class="text-xl">18</span>
+      </div>
+      <div class="flex flex-col items-center">
+        <Vue3Lottie loop :animation-data="data19" height="100%" width="100%"/>
+        <span class="text-xl">19</span>
+      </div>
+      <div class="flex flex-col items-center">
+        <Vue3Lottie loop :animation-data="data19s" height="100%" width="100%"/>
+        <span class="text-xl">19s</span>
+      </div>
+      <div><video src="@/animation-example/9th.webm" autoplay muted class="w-full h-auto"></video></div>
+      <div><video src="@/animation-example/19th.webm" autoplay muted class="w-full h-auto"></video></div>
     </div>
   </div>
 </template>

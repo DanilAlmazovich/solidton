@@ -19,7 +19,11 @@ const info = {
     <Promo title="SOLIDTON WALLET"
            second-title="How SOLIDTON WALLET Will Operate on the SolidChain Blockchain"/>
     <Info :title="info.title"
-          :description="info.description"/>
+          video
+          :description="info.description">
+      <video class="w-full h-auto object-contain" src="@/assets/video/solidton-wallet.webm"
+             playsinline loop autoplay muted/>
+    </Info>
 <!--    <Calc/>-->
     <Content/>
     <SignUp/>
